@@ -1,0 +1,2081 @@
+RESEARCH ARTICLE
+COMMUNITY INTELLIGENCE AND SOCIAL MEDIA SERVICES: 
+A RUMOR THEORETIC ANALYSIS OF TWEETS
+DURING SOCIAL CRISES1
+Onook Oh
+Warwick Business School, University of Warwick,
+Coventry, CV4 7AL  UNITED KINGDOM  {onookoh@gmail.com}
+Manish Agrawal
+Department of Information Systems and Decision Sciences, College of Business Administration, University of South Florida,
+4202 E. Fowler Avenue, CIS 1040, Tampa, FL  33620  U.S.A.  {magrawal@usf.edu}
+H. Raghav Rao
+Department of Management Science and Systems, School of Management, Jacobs Management Center,
+SUNY at Buffalo, Buffalo, NY 14269-4000 U.S.A. and Global Service Management,
+Sogang University, Seoul, SOUTH KOREA  {mgmtrao@gmail.com}
+Recent extreme events show that Twitter, a micro-blogging service, is emerging as the dominant social
+reporting tool to spread information on social crises.  It is elevating the online public community to the status
+of first responders who can collectively cope with social crises.  However, at the same time, many warnings
+have been raised about the reliability of community intelligence obtained through social reporting by the
+amateur online community.  Using rumor theory, this paper studies citizen-driven information processing
+through Twitter services using data from three social crises:  the Mumbai terrorist attacks in 2008, the Toyota
+recall in 2010, and the Seattle café shooting incident in 2012.  We approach social crises as communal efforts
+for community intelligence gathering and collective information processing to cope with and adapt to uncertain
+external situations.  We explore two issues:  (1) collective social reporting as an information processing
+mechanism to address crisis problems and gather community intelligence, and (2) the degeneration of social
+reporting into collective rumor mills.  Our analysis reveals that information with no clear source provided was
+the most important, personal involvement next in importance, and anxiety the least yet still important rumor
+causing factor on Twitter under social crisis situations.1
+Keywords:  Twitter, social reporting, social information processing, rumor theory, social crisis, extreme events,
+community intelligence
+1Hsinchun Chen was the accepting senior editor for this paper.  Michael Chau served as the associate editor.
+ MIS Quarterly Vol. 37 No. 2, pp. 407-426/June 2013 407
+
+Oh et al./Community Intelligence and Social Media Services
+Introduction
+Social media services and consumer computing devices are
+rapidly changing the way we are creating, distributing, and
+sharing emergency information during social crises (Palen et
+al. 2010; Palen et al. 2009; Shklovski et al. 2010; Shklovski
+et al. 2008; Starbird and Palen 2010).  During large-scale
+crises (e.g., natural disasters and terrorist attacks), it has
+become the norm that the incident is initially reported by a
+local eyewitness with a mobile communication device, the
+report is rapidly distributed through social media services, and
+mainstream media involvement follows (Oh et al. 2011; Oh et
+al. 2010).  Indeed, online citizens have shown the potential of
+being first responders who can improvise an effective emer-
+gency response by leveraging their local knowledge, typically
+not available to professional emergency responders who are
+not familiar with the local community (Li and Rao 2010).
+Despite these advantages, many warnings have been raised
+about the information quality of crisis reports contributed by
+voluntary online citizens.  A recent examination of some of
+Google’s real-time search results for Tweeter and blogs
+reveals that real-time information was mostly “fabricated
+content, unverified events, lies and misinterpretation”
+(Metaxas and Mustafaraj 2010, p. 1).  For this reason, and
+despite the potential of social media services and voluntary
+reports, they are often despised as collective rumor mills that
+propagate misinformation, gossip, and, in extreme cases,
+propaganda (Leberecht 2010).
+Acknowledging the duality of social media as a potential tool
+for social reporting and a collective rumor mill, this study
+explores the information quality issue in the context of social
+crises and media crises.  We conceptualize the participatory
+social reporting phenomenon as collective intelligence and
+information processing to make sense of, cope with, and adapt
+to situational and informational uncertainties under crises
+(DiFonzo and Bordia 2007).   This study attempts to answer
+two questions: 
+ (1) Under what conditions does collective social reporting
+function as a community intelligence mechanism to
+address crisis problems?
+ (2) Under what conditions does social reporting degenerate
+into a rumor-mill?
+To develop a theoretical framework for these questions, we
+rely on the literatures on rumor and social crises.  To empi-
+rically test the framework, we analyze Twitter data from three
+different crisis incidents:  the Mumbai terrorist attack in 2008,
+the Toyota recalls in 2010, and the Seattle café shooting
+incident in 2012.
+This paper proceeds as follows.  In the next section, we intro-
+duce the literatures on rumors and social crises.  We then
+synthesize these two literatures to develop our research model
+and hypotheses.  After that, the research methodology is intro-
+duced, hypothesis tests are performed, and results are dis-
+cussed.  In closing, limitations and future research possi-
+bilities are suggested.
+Social Crisis and Information Issues
+Social crises are characterized by the severe consequences of
+the incident, low probability of incident occurrence, informa-
+tional and situational uncertainty, and decision-making pres-
+sure under time constraints (Runyan 2006).  Unfamiliar,
+unplanned, and unpredictable crisis situations quickly render
+inoperative day-to-day routine practices which sustain some
+level of social behavior, communication norms, and norma-
+lized interaction (Stallings and Quarantelli 1985).  Inevitably,
+this out-of-the-ordinary crisis situation accompanies collective
+anxiety, improvised group behaviors, and adaptive collabo-
+ration among the public (Bharosa et al. 2010; Janssen et al.
+2010; Kendra and Wachtendorg.  2003; Majchrzak et al.
+2007).
+One of the main problems that have caused obstruction of
+improvised collaboration within and between the public and
+emergency responders has been the complexity in information
+processing and sharing (Bharosa et al. 2010; Jenvald et al.
+2001; Singh et al. 2009; Yang et al. 2009).  Scanlon (2007)
+relates the unusual and improvised communication behavior
+under large-scale social crisis to the information convergence
+phenomenon that suddenly overloads major communication
+systems.  This out-of-the-ordinary communication behavior
+during a crisis is associated with the twin problems of infor-
+mation overload and information dearth (Shklovski et al.
+2008).
+Information overload and information dearth signify the two
+enduring and interlocking problems that prevent sense-
+making of urgent situations and emergency response opera-
+tions.  First, from the emergency responders’ perspective, too
+many inquiries and reports, many of which are not accurate or
+reliable, hamper emergency response teams in efficiently
+delivering relevant and trustworthy information to the right
+responders at the right time (Bharosa et al. 2008; Bharosa et
+al. 2010).  For example, during the Mumbai terrorist attacks,
+the police control room was flooded with incorrect reports of
+explosions at leading hotels such as the J. W. Marriott
+(Chakraborty et al. 2010).  Second, from the perspective of a
+citizen, the information dearth problem indicates a lack of
+ 408 MIS Quarterly Vol. 37 No. 2/June 2013
+
+Oh et al./Community Intelligence and Social Media Services
+local information, desperately needed by citizens of affected
+areas to make localized decisions.  As the main cause of the
+information dearth problem, the disaster literature identifies
+mainstream media.  The literature maintains that institutional
+mainstream media have a tendency to repeatedly zoom in on
+the sensational aspects of a disaster from a single onlooker’s
+perspective (Wenger and Friedman 1986), and they are highly
+dominated by cultural influences or institutional policies.  As
+a result, rather than trusting mainstream media, citizens often
+turn to their own local social networks or resources at hand to
+obtain local information that is relevant and needed for their
+understanding of the local situation and decision making
+(Mileti and Darlington 1997; Shibutani 1966; Wenger and
+Friedman 1986).  Therefore, it is not surprising that unex-
+pected social crises in recent years almost always involve
+high traffic in social media websites through various forms of
+information exchange, including online posting, linking,
+texting, tweeting, retweeting, etc.
+To root the study in a robust theoretical framework, the next
+section introduces rumor theory in the context of crisis
+communication, and suggests testable hypotheses along with
+key variables.
+Theoretical Foundation:  Rumor
+Theory and Social Crises
+From a social psychological perspective, Shibutani (1966)
+relates rumor phenomena to information convergence, which
+typically occurs in the early stages of a social crisis.  He
+considers rumoring as a collective and improvised infor-
+mation seeking and exchanging behavior among citizens to
+control social tension and solve crisis problems.  Rumoring is
+defined as a collective and collaborative transaction in which
+community members offer, evaluate, and interpret information
+to reach a common understanding of uncertain situations, to
+alleviate social tension, and to solve collective crisis problems
+(Bordia 1996; Bordia and DiFonzo 1999, 2004; Shibutani
+1966).  Rumor, as an instance of crisis communications in a
+community, is born and makes its way through social support
+(Festinger 1962).  From its birth, as rumor involves commu-
+nication dynamics surrounding shared issues in a community,
+the generation and transmission of rumor are inseparable in
+practice.  Therefore, to highlight the connective and dynamic
+nature of rumor, this paper uses the terms like rumor,
+rumoring, and rumormongering interchangeably.
+When people encounter unexpected crisis events, emotional
+tension in the affected community increases.  To release the
+social tension, people initially turn to reliable institutional
+channels such as the mainstream media and attempt to make
+sense of uncertain situations with the information collected.
+At this initial stage, if people in the affected community fail
+to obtain relevant and timely information, they begin to
+mobilize informal social networks such as friends, neighbors,
+local news, and other possible sources.  Then, using the infor-
+mation collected through these backchannels, people
+improvise news to fill the information gap of mainstream
+media.  Shibutani (1966) calls this informally improvised
+news as rumor, which functions as a collective effort to reach
+a common understanding of the situational uncertainty and to
+relieve emotional tension.  In this view, rumoring helps the
+community to cope with and adapt to ambiguous crisis situa-
+tions until the level of social tension is brought under check.
+Shibutani’s description of the rumoring procedure as a kind of
+emergency communication endeavor concurs with many
+findings of crisis research, which report that victims avoid
+mainstream media and actively adopt informal communica-
+tion channels during social crisis events (Quarantelli and
+Wenger 1989).  According to a survey of citizens affected by
+the Southern California wildfires in 2007, many respondents
+felt that the institutional mainstream media were not providing
+local information, desperately needed by residents of the
+affected areas, in a timely manner (Mills et al. 2009; Sutton et
+al. 2008).  In response, many people turned to social media
+services to fill the information gap left by mainstream media
+(Shklovski et al. 2008), and others intentionally learned how
+to use texting devices and online message boards to exchange
+crisis information and to stay connected with their acquain-
+tances (Shklovski et al. 2010).
+Although originating from different domains, the rumor
+research and crisis research camps have close affinity in that
+both camps view improvised and emergent crisis communi-
+cation as a typical nonroutine group behavior.  One major
+difference is that, while the former camp approaches the
+improvised crisis communication as a rumor phenomenon, the
+latter takes the perspective of information convergence, which
+overloads the communication infrastructure.  However, a
+close reading of both literatures reveals that rumor phenom-
+ena and information convergence are interlocking problems
+born out of unpredictable, unfamiliar, and unplanned social
+crisis situations.  This is easy to see when rumor researchers
+argue that “disasters and other crises are characterized by high
+importance, high ambiguity, low critical sensibility, and many
+rumors” (Rosnow and Fine 1976, p. 52), or “in wartime…the
+conditions for rumor are optimal” (Allport and Postman 
+1947, p. 34).
+Close kinship between studies of rumor and social crises is
+also found in the seminal rumor model of Allport and Post-
+MIS Quarterly Vol. 37 No. 2/June 2013 409
+
+Oh et al./Community Intelligence and Social Media Services
+man (1947).  The rumor model was the product of a study of
+unusual group communication during social crises.  After
+investigating the characteristics of rumors prevalent during
+World War II, they suggested that rumor spread is a function
+of importance and informational ambiguity.  This implies that,
+for the birth and dissemination of a rumor, the theme of the
+story must be important to both message sender and recipient,
+and the truthfulness of the story must be masked with some
+level of ambiguity.  If the story is not important, there is no
+psychological incentive for people to pass along the story to
+other persons.  Also, if the story does not contain some level
+of ambiguity, then it is already a fact that does not need
+subjective elaboration and interpretation.  This seminal rumor
+model is expanded, refined, and tested in this paper.  The next
+sections introduce key rumor variables to build empirically
+testable hypotheses.
+Anxiety
+Although Allport and Postman’s rumor model offered key
+variables for rumormongering conditions, measurement of the
+importance variable was a thorny problem until Anthony
+(1973) introduced anxiety as its proxy variable.  Her rationale
+for employing the anxiety measurement scale (i.e., Taylor
+Manifest Anxiety Scale) was that it may be difficult for a
+person to articulate the importance of a particular rumor.
+However if one feels anxious about the rumor, it signals that
+the content in the rumor message is important to her/him.
+Otherwise, it is not.  
+The inclusion of the anxiety concept contributes in differ-
+entiating two conceptually distinct dimensions of rumor-
+mongering motives:  the affective dimension (anxiety) and the
+cognitive dimension (ambiguity).  Allport and Postman ex-
+pressed a similar notion that rumor is motivated by “intellec-
+tual pressure along with the emotional” (p. 37).  Emotional
+pressure indicates the affective dimension (anxiety), and
+intellectual pressure points to the cognitive dimension (ambi-
+guity) of rumoring.  To develop the first hypothesis, in this
+section, we focus on the affective dimension of anxiety, and
+the cognitive dimension will be revisited when we introduce
+the second hypothesis in the next section.
+According to Allport and Postman, seen from the affective
+dimension, rumoring is a justification process to relieve one’s
+emotional tension by elaborating a story to gain acceptance
+from listeners.  Therefore, the more anxious an individual, the
+more likely he/she is to spread rumors.  The consistent con-
+clusion of rumor research on social crisis is that rumor
+endures until the perceived external uncertainty disappears
+and its attendant anxiety subsides (Knapp 1944; Prasad 1935,
+1950; Rosnow and Fine 1976).  Following these findings, and
+given the uncertain and apprehensive nature of social crises,
+the first hypothesis is presented:
+H1:  The level of anxiety during social crises is posi-
+tively associated with rumors (rumormongering).
+Information Ambiguity:  Source Ambiguity
+and Content Ambiguity
+In addition to anxiety, ambiguous information is another
+important factor of rumor spread.  Ambiguous information is
+mainly caused either by the destructive impact of disasters,
+which suddenly incapacitate communication infrastructures
+(Kendra and Wachtendorg 2003), or by the deliberate holding
+back of critical information by organizations in the interests
+of security (Rosnow 1991).  Under extreme and ambiguous
+situations, people frequently experience a shortage of reliable
+information to understand uncertain situations and, conse-
+quently, tend to improvise news to fill the gap of information
+ambiguity with subjective elaboration, fanning the rumor mill
+(Shibutani1966).
+Rumor researchers implicitly present two different dimensions
+of information ambiguity:  source ambiguity and content
+ambiguity.  Source ambiguity concerns the trustfulness of the
+information source, which guarantees the veracity of the cir-
+culating information.  Content ambiguity attends to the inter-
+pretative clarity of meaning contained in the information.
+Shibutani’s notion of improvised news as rumor implies both
+dimensions of source ambiguity and content ambiguity.
+Facing social crises, people initially turn to institutional news
+channels to obtain reliable information, and then mobilize
+unofficial social networks to fill the information gap of the
+institutional news channels.  In a similar vein, many rumor
+researchers have also argued that, when information is void of
+trustful sources, people tend to make predictions with their
+own subjective wishes or bounded knowledge to reduce
+cognitive ambiguity (Knopf 1975; Rosnow 1991; Rosnow and
+Fine 1976).  It can be inferred from this logic that, if informa-
+tion is attached with verifiable sources, then it may suppress
+the incentive to devise rumors.
+Content ambiguity refers to the level of interpretive ambiguity
+contained in the information.   Fundamentally, it stands on the
+underlying assumption that “our minds protest against chaos”
+(Allport and Postman 1947, p. 37).  From a cognitive perspec-
+tive, the intellectual effort to extract clear meaning out of a
+chaotic state is an endeavor to remove ambiguity from the
+information (DiFonzo and Bordia 2007; Festinger 1962;
+Kapferer 1990; Knopf 1975; Rosnow and Fine 1976).  There-
+ 410 MIS Quarterly Vol. 37 No. 2/June 2013
+
+Oh et al./Community Intelligence and Social Media Services
+fore, the more ambiguous the information content, the more
+frequent communications of information seeking, sharing, and
+elaboration among community members.
+Festinger’s (1957) description of cognitive dissonance exem-
+plifies the relationship between ambiguous information and
+rumoring.  He explains cognitive dissonance with the example
+of an earthquake in India in 1934.  Subsequent to the severe
+earthquake, fearsome rumors began to circulate outside, but
+not inside, the affected community.  These rumors were
+mostly about the aftermath of the earthquake:  “The water of
+the River Ganges disappeared at the time of the earthquake,
+and people bathing were embedded in sand” (p. 238).  To
+explain why these rumors were prevalent only outside, but not
+inside the destruction area, Festinger argues that the neigh-
+boring people outside the destruction area were experiencing
+cognitive dissonance.  That is, although they had the feeling
+of fear from hearing about the earthquake, because they had
+not witnessed the disaster, they only had uncertain and equi-
+vocal information about the earthquake.  What Festinger’s
+cognitive dissonance work suggests is that rumor sets in
+motion “in situations of relative collective ignorance and
+ambiguity about an event” (Tierney and Aguirre 2001, p. 5).
+Given that social crises create uncertain information, which is
+void of trustful source and contains interpretive ambiguity, the
+second hypothesis is presented as follows:
+H2a:  The level of source ambiguity in the circu-
+lating information during social crises is positively
+associated with rumors (mongering).
+H2b:  The level of content ambiguity in the circu-
+lating information during social crises is positively
+associated with rumors (mongering).
+Personal Involvement
+Although Anthony employs anxiety as a proxy to measure the
+importance variable of Allport and Postman’s original rumor
+model, Rosnow (1991) suggests including the perceived
+importance as a separate variable.  He refines it as “outcome-
+relevant involvement” to indicate that “the amount of rumor-
+mongering will vary according to an incident’s thematic
+importance” to the people involved (Rosnow 1991, p. 486).
+This is consistent with Allport and Postman’s postulate that
+“the amount of rumor circulation will vary with the impor-
+tance of the subject to the individuals concerned” (p. 34). 
+This means that for a rumor to spread, the incident’s subject
+matter must be important for both the information sender and
+recipient.  Otherwise, there is no incentive for the recipient to
+pass along the story to other persons.  In this sense, impor-
+tance is represented as a subjective feeling of personal
+involvement2 in the rumor related incident, which is con-
+ceptually different from Anthony’s anxiety.
+Rosnow believes that the personal “affective state—acute or
+chronic” is an important rumor spreading factor, because it is
+not necessarily evoked by external events, but somehow is
+already imbued with personal disposition even before experi-
+encing the rumor related incidents (p. 487).  The external
+incident’s importance to the individual concerned is based on
+“a synthesis of the relevance of a situation and whether it
+evoked caring or involvement” (p. 487).  Rosnow et al.’s
+(1988) rumor research on a murder incident at a local college
+supports the argument.  It revealed that the student group of
+the college, which experienced the murder incident, trans-
+mitted almost twice the number of rumors compared to the
+control group of the neighboring college.  While this research
+did not include importance or personal involvement as an
+independent variable, we can surmise that the college student
+group who experienced the shocking murder incident in their
+campus dorm may have had higher levels of personal involve-
+ment perception with the incident than the control group.
+From this, we submit a third hypothesis on the role of per-
+sonal involvement feeling in rumor transmission:
+H3:  Feelings of personal involvement with regard
+to social crises is positively associated with rumors
+(mongering).
+Social Ties:  Direct Message
+Rumoring involves collective talking, interactive information
+sharing, and social support (Festinger 1962) among like-
+minded groups of people.  By nature, people tend to share
+information with acquaintances within their communal bound-
+ary, and “people are biased toward believing rumors from
+those they know” (Garrett 2011, p. 259).  Therefore, social
+ties, personal contacts, and relations in close proximity are
+factors that influence people to share information with other
+community members (Collins 2001), and they form repeatable
+communication routines through which information flows
+(Tsai and Ghoshal 1998).
+Although the social tie concept has not been extensively
+tested as a distinct variable in previous rumor studies, its
+importance has been sporadically mentioned with different
+expressions.  For example, Allport and Postman maintain that
+2We thank an anonymous reviewer who suggested adding the personal
+involvement variable to our original rumor model.  
+MIS Quarterly Vol. 37 No. 2/June 2013 411
+
+Oh et al./Community Intelligence and Social Media Services
+rumors “avoid crossing social barriers and therefore have a
+restricted circulation” (p. 35).  In a similar vein, Festinger
+suggests that social support is mandatory for rumor dissemi-
+nation.  These concepts imply that a rumor is more likely to
+spread within a community that is sustained by affective trust
+and strong social ties.   That means, in a tightly woven com-
+munity, affective social ties are likely to impose “social
+pressure against fact-checking,” reducing “the probability that
+recipients will verify the information for themselves” (Garett
+2011, pp. 259-260).
+Garett’s (2011) political rumor research shows the effect of
+existing social ties on rumor transmission.  His survey pro-
+vides evidence that, compared to rumors learned from the
+public web, rumors received through e-mails from acquain-
+tances (e.g., friends, colleagues, or family members) are more
+likely to be believed and biased in the pattern of dissemi-
+nation and credulity.  As a reason for the strong bias effect of
+e-mail communication on rumor, Garret maintains that,
+different from the public web, e-mail is a closed and more
+informal communication channel, capitalizing on existing
+social networks such as friends, colleagues, and family
+members.
+As an extension of this rumor study, Garret suggests that
+social networking services (i.e., Facebook and Twitter) may
+replicate rumor dynamics similar to those shown in e-mail
+communication.  The main reason is that, similar to informal
+e-mail communication and different from the public web,
+social networking sites are mainly built around existing social
+relations.  Acknowledging the effect of social relations on
+rumor transmission, we propose that directed messages (DM)
+in Twitter,3 which are addressed to specific individuals in the
+Tweeter’s social network, may be more likely to result in
+rumors.  Therefore, a fourth hypothesis is proposed:
+H4:  Directed messages in Twitter are positively
+associated with rumor (mongering).
+In aggregate, our research model on rumormongering is
+represented as Figure 1.
+Research Methodology
+To test our hypotheses, we used three different Twitter data
+sets:  (1) the Mumbai terrorist attack in 2008, (2) the Seattle
+café shooting incident in 2012, and (3) the Toyota recalls in
+2010.  The first two data sets represent man-made crises but
+with different scales and impacts, and the third data set deals
+with the business crisis of Toyota recalls.
+ 
+These three types of incidents are appropriate for this research
+for two reasons.  First, as the rumor literature suggests, large-
+scale crises offer optimal conditions for rumor-mongering. 
+Second, analysis of data from three different types of social
+crisis will offer generalizable insights on the quality of social
+information produced by the online public.
+Backgrounds of the Three Social
+Crises Under Analysis
+The Mumbai Terrorist Attack in 2008
+The Mumbai terrorist attack of November 2008 was arguably
+the worst terrorist incident in the history of India.  A group of
+terrorists killed 165 and injured 304 people at the heart of
+India’s financial capital, Mumbai, by using a combination of
+improvised explosive devices, grenades, and hand-held guns
+(Indian Ministry of External Affairs 2009).  The unfolding
+tragedy was broadcast live through India’s mainstream TV
+media and live web streaming for almost 60 hours without
+any restraint.  The scenes were terrifying enough to create
+anxiety and confusion in the minds of the Indian people (Oh
+et al. 2011; Raman 2009).
+Within minutes of the initial attack, a local Mumbai resident
+posted a stream of onsite pictures at a photo sharing site,
+Flickr.  Almost concurrently, a group of people voluntarily
+formed a Twitter page with a link to the Flickr site, and
+spread eyewitness accounts of the terrorist attacks with texts,
+photos, and links to other sources.  Through tweets, online
+users expressed condolences, encouraged blood donations,
+posted help line contacts, broadcast information about their
+safety to their family, reported eyewitness accounts of the
+unfolding situation, etc.
+For active situational reports, some users added comments
+like “twitter rocks – I am getting accurate and better informa-
+tion than MSM like Times Now!” or “CNN has been playing
+catch up to twitter :).”  However, despite the rapid dissemi-
+nation of situational information, much confusion existed in
+the Twitter space due to too many rumors (Gahran 2008).  As
+a result, many Twitter users expressed concerns regarding the
+reliability of news sources,4 finger-pointed specific users as
+3Directed message is a message sent to specific Twitter user by attaching
+“@” in front of the recipient’s Twitter ID.  It can be sent to a specified user.
+Therefore, conceptually it is close to publicly displayed private e-mail.
+4Some exemplary tweets expressing concerns about rumors were “#mumbai
+Please tweet only direct observations, RT rumors are just decreasing the
+signal/noise ratio” and “where did you get that info? its crap.  all of this is
+live on TV.  pls stop spreading such stuff without verifying #mumbai.”
+ 412 MIS Quarterly Vol. 37 No. 2/June 2013
+
+Oh et al./Community Intelligence and Social Media Services
+Anxiety (H1)
+Information Ambiguity
+     - Source Ambiguity (H2a)
+     - Content Ambiguity (H2b)
+Personal Involvement (H3)
+Social Ties (DM) (H4)
+Rumor (mongering)
+(+)
+(+)
+(+)
+(+)
+Figure 1.  Proposed Research Model
+abusers of the Twitter space, showed distrust in Twitter, or
+requested Twitter users to post only direct observations. 
+Seattle Café Shooting Incident in 2010
+On May 20, 2012, a gunman in Seattle, Washington, killed
+five people and injured one person before committing suicide.
+It was reported that the gunman had gotten into fights with
+musicians at Café Racer and have been made to leave by a
+bartender.  At that moment, he pulled out two handguns and
+shot at customers and employees.  He fled the scene imme-
+diately, going to a parking lot in the downtown area where he
+killed a woman and hijacked her car.  Later that afternoon, the
+gunman shot himself to death as the police approached him
+(CNN 2012; McNerthney 2012).  During the search operation,
+the Mayor, the Seattle Police Department, and local news
+outlets (such as Seattle Times, Seattle PI, Komo News, etc.)
+were deeply involved in tweeting to broadcast the unfolding
+situation.
+The police at first treated the shooting incidents at the café
+and the parking lot as separate crimes.  The informational
+confusion and ambiguous situations about the shooters’
+whereabouts created discomfort in the minds of community
+members (Johnson 2012; Winter 2012).  Many people ex-
+pressed anxiety and doubted the quality of information
+circulating through Twitter.  Example tweets included 
+“Twitter is not a great place to get reliable sourcing on
+#Seattle shootings right now.  So many conflicting reports,”
+or “#DowntownShooting #RooseveltShooting How does this
+make sense? Suspect Downtown was blond and suspect on
+Roosevelt was brown haired?”
+Toyota Recalls in 2010
+Starting from the end of 2009 and throughout 2010, Toyota
+suffered from a series of recall nightmares.  In September
+2009, Toyota announced its biggest recall ever of more than
+4 million vehicles for a problem related to accelerator pedals
+getting trapped in the floor mat.  Four months later, in January
+2010, they announced another large-scale recall of around 2.3
+million vehicles in the United States for potentially faulty
+accelerator pedals (Allen and Sturcke 2010).  In April 2010,
+they recalled around 600,000 minivans in the United States
+for potential corrosion problems in the spare tire carrier cable.
+In July 2010, they announced additional recalls of over
+400,000 cars in the United States and Canada for more serious
+mechanical problems in the steering system, which could
+cause deadly road accidents (Reuters 2010).
+Following the serial recalls, in May 2011, sales of Toyota
+declined by a third compared to May 2010.  To make matters
+worse, along with the effect of the economic downturn
+affecting the overall U.S. car industry, the company faced a
+backlash from the mainstream and social media for their
+problematic safety checks, quality controls, and frequent
+recalls.  Reflecting the impact of the business crises and its
+attendant consumer safety concerns, during the recall periods,
+Toyota became a trend word on Google and Twitter, mostly
+with negative comments (Wasserman 2011).
+Data Collection
+The data collection process for the three crisis incidents is
+detailed below.
+MIS Quarterly Vol. 37 No. 2/June 2013 413
+
+Oh et al./Community Intelligence and Social Media Services
+Mumbai Terrorist Attack 2008
+As soon as the Mumbai terrorist attack occurred on November
+26, 2008, we manually collected 929 tweet messages and their
+user IDs.  Subsequently, to increase the sample size, we read
+through the 929 tweet messages and collected additional user
+IDs embedded in the tweet messages as a form of directed
+message or retweets.  Through this process, we identified total
+602 IDs of users who might have posted messages during the
+Mumbai attack.   By tracking back all Twitter messages of
+those 602 IDs,5 we collected a total of 20,920 Twitter mes-
+sages for the period November 26 to November 30, 2008.  For
+our qualitative hand coding of the data, we randomly selected
+7,000 Twitter messages out of the entire set of Twitter mes-
+sages.  One of the authors and two Master’s students (who
+were familiar with the Mumbai scenario from personal
+experience) read through all the 7,000 tweets to remove
+thematically irrelevant tweets.
+Toyota recalls 2010
+Twitter data on the 2010 Toyota recalls was obtained from
+Stefan Stieglitz and Nina Krüger (2011).6  The sample size
+that we received from Stieglitz and Krüger was 37,323 tweets,
+which were collected between March 21 and July 31, 2010,
+by using the keyword combination of “Toyota” and “recall.” 
+From the data we obtained, we randomly selected and read
+5,000 tweets to check if they were relevant to the Toyota
+recalls.  All tweets were relevant to the Toyota recalls and we
+saved them for pilot and actual coding for our study.
+Seattle Café Shooting 2012
+As soon as we heard the news about the shooting incident in
+Seattle, Washington, at 5:20 p.m. Central Time on May 30,
+2012, we began data collection with four hashtagged key-
+words:  #DowntownShooting, #SeattleShooting, #Seattle, and
+#RooseveltShooting.  Those hashtagged keywords were deter-
+mined by our monitoring of the live tweet messages through
+the Twitter search engine.  We concluded our data collection
+at 2:00 p.m. Central Time on May 31, when we heard the
+official news that the shooter had committed suicide.  We
+collected a total of 9,104 tweet samples during the period.
+Unitizing
+Bordia and DiFonzo (1999, 2004) suggest that, before content
+coding, a paragraph, sentence, or narrative should be dis-
+sected into a unit of one complete thought.  They suggest that
+“a complete thought provides enough information so that it
+can be interpreted by others and can stimulate a reaction in
+them” (Bordia and DiFonzo 2004, p. 38).  Given that the
+Twitter message has a maximum of 140 characters, our data
+sample was already unitized into a unit of one complete
+thought for coding.
+Coding Scheme
+We coded each tweet message to measure the effect of
+anxiety, information ambiguity (content ambiguity and source
+ambiguity), personal involvement, and direct message on
+rumor.
+Detailed coding schemes for dependent and independent
+variables are attached as Appendix A.   To develop the coding
+scheme for the dependent variable, rumor, we referred to
+various rumor definitions (Buckner 1965; Rosnow et al. 1988;
+Rosnow and Kimmel 2000).  To create the coding scheme for
+independent variables, we modified the rumor interaction
+analysis systems (RIAS) to our research context (Bordia and
+DiFonzo 2004).  The RIAS is a coding scheme to categorize
+communication postures represented in rumor text into 14
+categories.  Its purpose is to understand how interactive
+human communication changes over the life of a rumor to
+solve two problems (anxiety and uncertainty) implied in
+rumor.  However, as the purpose of our study is to identify the
+rumor causing factors, we borrowed only those definitions
+relevant to our rumor model (Figure 1) (e.g., apprehensive
+statement for anxiety, personal involvement statement, and
+interrogatory statements for content ambiguity).
+To code the dependent variable, rumor, we used Rosnow and
+Kimmel’s (2000) rumor definition:  “Unverified proposition
+or belief that bears topical relevance for persons actively
+involved in its dissemination” (p. 122, italics addedl).  We
+also referred to the actual questionnaire items that Rosnow et
+al. (1988) used in their rumor research on the murder incident
+at a campus dorm of a local college:  “any report, statement,
+or story that one may have heard for which there is no
+immediate evidence to verify its truth” (p. 32, italics added). 
+Finally, to sharpen the relevance of theme in the Twitter
+messages, we employed Buckner’s (1965) rumor definition: 
+“Unconfirmed message passed from one person to another…
+that refer[s] to an object, person, or situation rather than an
+idea or theory” (p. 55, italics added).
+5To retrieve the archival Twitter messages, we created our own Twitter data
+collection application in compliance with Twitter API terms of service.  The
+application is available from the authors on request.
+6 The authors thank Drs. Stieglitz and Krüger for generously allowing us to
+use their Twitter data for our study.
+ 414 MIS Quarterly Vol. 37 No. 2/June 2013
+
+Oh et al./Community Intelligence and Social Media Services
+In brief, these rumor definitions involve three dimensions:
+unverified proposition, topical relevance, and referents of the
+statement (that is, an object, person, or situation rather than an
+idea or theory).  Therefore, in the Twitter context, three
+conditions have been applied to code a tweet as a rumor: 
+(1) if the tweet message explicitly indicates a person (e.g., the
+prime minister of India), source (e.g., BBC, NDTV, link to
+web address, etc.), context, or known data to serve as proof or
+verification for the statement, AND (2) if the tweet is
+topically relevant to three types of crises under this study,
+AND (3) if the tweet statement refers to an object, person, or
+situation rather than an idea or theory (Bordia 1996; Rosnow
+et al. 1988; Rosnow and Kimmel 2000; Buckner 1965).
+Rumor and all independent variables were coded as dichot-
+omous (either 1 or 0).  Along with exemplary tweet messages,
+the full coding scheme for dependent and all independent
+variables is detailed in Appendix A.
+All variables were coded as dichotomous because of the
+content analytic coding procedure used.  Previous rumor
+studies in the off-line context have used survey or interview
+methods along with psychometric measurement scales as a
+means to measure the perceived level of different variables
+(e.g., anxiety, importance, ambiguity, etc.) on an interval
+scale (Anthony 1973; Buckner 1965; Rosnow et al. 1988).
+However, as our study involves reading and content coding
+for the unobtrusively collected tweet texts, we coded our
+variables as dichotomous by checking whether or not a tweet
+message contains traits of variables suggested in our research
+model.
+Inter-Coder Reliability
+We followed the steps for content coding and analysis sug-
+gested by Krippendorf (1980) and Landis and Koch (1977).
+For the content coding, two Master’s and two undergraduate
+students were hired to separately code the Twitter data.  Two
+Master’s students with deep local knowledge of Mumbai, its
+surroundings, and the terrorist attacks separately coded the
+Mumbai terrorist attack data.  Two other undergraduate stu-
+dents separately coded the Seattle café shooting incident data.
+After finishing the coding of those two data sets, one Master’s
+and one undergraduate student independently coded the
+Toyota recall data.
+ To build a coding book (Appendix A), three meetings were
+held to understand the histories of the three different social
+crises and the role of Twitter during those crises situations.
+The authors were not involved in content coding.  Hypotheses
+and measurement models were not shared with student coders,
+and they were not allowed to communicate with each other
+while coding.  They were asked not to spend more than an
+hour each day coding the data in order to miminize coding
+errors due to fatigue.
+Pilot data coding was carried out in two rounds for the
+Mumbai terror data, and in three rounds for the Seattle café
+shooting and Toyota recall data sets.  Our goal for pilot
+coding was to repeat coding and refine the coding book until
+independent coding results reached the kappa value greater
+than .70, indicating a probability of agreed understanding
+between coders that is significantly higher than what can be
+obtained by chance (Krippendorf 1980; Landis and Koch
+1977).7
+The first pilot coding was to verify the level of mutual under-
+standing of the coding book.  For the first pilot coding, we
+used 100 tweet samples that we randomly selected from our
+original data sets.  If the first pilot coding result did not reach
+the threshold kappa value of .70, then two authors and all
+student coders conducted video conferences to discuss the
+disagreed coding results.  As Table 1 shows, the coding result
+for the Mumbai terrorist attacks exceeded the desired
+threshold kappa value of .70 at the first round of coding.
+Therefore, coders performed coding with 300 sample tweets.
+Coding for the other two data sets (Toyota recalls and Seattle
+café shooting) exceeded the threshold kappa value of .70 after
+the second round of coding.  Therefore, we proceeded to the
+third round of coding for these two data sets with 300 sample
+tweets each.  The final pilot coding results with 300 tweet
+messages confirmed that our coding book is robust, and
+therefore, one Master’s and two undergraduate student coders
+proceeded to separately code the entire 3,500 tweet data
+samples of the three different social crises.  We ensured that
+the pilot sample data (400 tweet sample for the Mumbai
+terrorist attacks and 500 tweet samples for the Toyota recalls
+and the Seattle shooting incident) were excluded from 3,500
+sample data of three different incidents (total 10,500 tweets)
+that we used for our logistic regression analysis.
+Analysis Method
+Due to the dichotomous nature of the dependent variable
+(rumor), we employed logistic regression.  Logistic regression
+is appropriate “with an outcome variable that is dichotomous
+and predictor variables that are continuous or categorical”
+(Field 2005, p. 218).  It does not assume linear relationships
+7Landis and Koch suggest that kappa value 0.21~0.40 is fair, 0.41~0.60
+moderate, 0.61~0.80 substantial, and 0.81~1.00 almost perfect agreement
+between independent coders.
+MIS Quarterly Vol. 37 No. 2/June 2013 415
+
+Oh et al./Community Intelligence and Social Media Services
+Table 1.  Pilot Coding Results (Cohen’s Kappa Values)
+ 
+Mumbai Terrorist
+  Attack 2008 Toyota Recalls 2010 Seattle Café Shooting 2012
+ 1
+st
+Coding
+2nd
+Coding
+1st
+Coding
+2nd
+Coding
+3rd
+Coding
+1st
+Coding
+2nd
+Coding
+3rd
+Coding
+        Rumor 0.77 0.84 0.63 0.71 0.79 0.75 0.80 0.89
+        Anxiety 0.81 0.82 0.85 0.85 0.82 0.73 0.80 0.86
+        Personal Involvement 0.89 1.00 0.63 0.85 0.83 0.64 0.71 0.96
+        Source Ambiguity 0.75 0.86 0.63 0.82 0.74 0.59 0.71 0.92
+        Content Ambiguity 0.74 0.81 0.77 1.00 0.85 0.59 0.83 0.94
+        Social Ties 0.79 0.99 0.48 0.79 0.89 0.64 0.77 1.0
+        Sample Size 100 300 100 100 300 100 100 300
+Table 2.  Spearman’s Correlations
+Mumbai Terror Attacks 2008
+     Rumor Anxiety Sorc Amb Cont Amb Per Inv Soc Tie
+ Rumor 1
+  Anxiety .182** 1
+   Sorc Amb .358** .291** 1
+    Cont Amb .047** .074** .179** 1
+     Per Inv .239** .328** .360** -0.01 1
+      Social Tie -.189** 0.012 0.011 .108** -.038* 1
+Toyota Recalls 2010
+     Rumor Anxiety Sorc Amb Cont Amb Per Inv Soc Tie
+ Rumor 1
+  Anxiety .050** 1
+   Sorc Amb .301** 0.012 1
+    Cont Amb 0.021 .083** -0.021 1
+     Per Inv .060** .259** -0.005 .189** 1
+      Social Tie 0.03 .156** 0.016 .041* .228** 1
+Seattle Shootings 2012
+     Rumor Anxiety Sorc Amb Cont Amb Per Inv Soc Tie
+ Rumor 1
+  Anxiety .164** 1
+   Sorc Amb .280** .378** 1
+    Cont Amb .045** .162** .180** 1
+     Per Inv .142** .455** .275** .078** 1
+      Social Tie 0.005 -0.004 .055** .044** -0.015 1
+**Indicates correlation is significant at the 0.01 level (2-tailed).
+*Correlation is significant at the 0.05 level (2-tailed).
+Abbreviations:  Sorc Amb - Source Ambiguity; Cont Amb - Content Ambiguity; Per Inv - Personal Involvement; Soc Tie - Social Ties
+ 416 MIS Quarterly Vol. 37 No. 2/June 2013
+
+Oh et al./Community Intelligence and Social Media Services
+between the dependent and independent variables, and inde-
+pendent variables need not be interval, nor normally distri-
+buted, nor linearly related (Tabachnick and Fidell 1996).
+Further, the results have direct interpretations as odds-ratios.
+The Spearman rank correlation test (Table 2) indicates that all
+correlations are less than 0.5, indicating that no significant
+multicollinearity problems exist (Kishore et al. 2004-2005). 
+Also, the correlation between rumor and source ambiguity is
+not in the range of statistical concern (.358 for the Mumbai
+terrorist attacks, .301 for the Toyota recall, and .280 for the
+Seattle shooting incident).  Note that the Twitter data are
+observable and explicit (as opposed to latent) that community
+members actually tweeted during the situation of social crises.
+We also ensure that our sample sizes (3,500 tweets from each
+crisis incident) are large enough to suppress the potential
+Type I and Type II errors.  The concern of Type II errors can
+be suppressed with a large sample size, and the immunity of
+Type I error can be ensured by the significance of p-value
+(Larson-Hall 2010).
+The rumor model tested is as follows:
+P(Rumor) . Anxiety + Source Ambiguity + Content
+Ambituity + Personal Involvement + Direct Message
+As our Twitter data sets were collected over specific time
+periods, we performed Durbin-Watson tests to verify that the
+error terms in our data sets did not contain any first order
+autocorrelations.  (Durbin and Watson 1951; Savin and White
+1977).  Values of the Durbin-Watson statistics (d) were 1.94,
+1.96, and 1.99 at p < .05 for each of the three data sets
+(Mumbai, Toyota, and Seattle).  As all of these values are
+between lower (dU = 1.93) and upper (4 – dU = 2.07) bound of
+critical values at p < .05, we do not detect any autocorrela-
+tions between the error terms, validating that the error terms
+are independent of each other (Murray 2005).8
+Results
+Using logistic regression analysis, we estimated the proba-
+bility of rumor-mongering for the five independent variables
+during the three different types of crisis incidents.  Results of
+the regression analysis are presented in Table 3.  The results
+indicate a good model fit for the Mumbai terrorist attacks
+data,  χ² =  680.21 (p < .001), for the Toyota recall data,  χ² =
+260.94 (p < .001), and for the Seattle shooting incident data, 
+χ² = 292.69  (p < .001).  Table 3 also shows that H1 is sup-
+ported for the Mumbai terror case at the significance level of
+p < .01, and for the Seattle shooting incident case at the
+significance level of p < .05.  However, H1 is only marginally
+supported for the Toyota recall data at p < .10.  This implies
+that, during the Mumbai terrorist attacks, a Twitter message
+charged with anxiety is 1.406 times more likely to be a rumor
+than an anxiety-free message.  In the Seattle shooting inci-
+dent, the probability of an anxious Twitter message to be a
+rumor is 1.299 times higher than a non-anxious one.  In the
+Toyota recalls, although the probability that an anxious
+Twitter message is likely to be a rumor is 1.59 times higher
+than a non-anxious one, its significance level is marginal at
+p < .1.
+Table 3 shows significant effects of source ambiguity on
+rumor at p < .01 for all three crisis cases, leading to strong
+support for H2a.  In other words, the probability that a Twitter
+message with an ambiguous source is likely to be a rumor is
+4.237 times, 4.523 times, and 4.001 times higher than a
+Twitter message having source information for the cases of
+the Mumbai terrorist attacks, the Toyota recall, and the Seattle
+shooting, respectively.  Table 3 also shows the significant
+effects of personal involvement on rumor for all three crisis
+cases but with slightly different significance levels.  The
+probability that a message implying a feeling of personal
+involvement is likely to be a rumor is 1.699 times (p < .01), 
+2.15  times (p < .01), and 1.401 times  (p < .05) higher than a
+message that does not imply a feeling of personal involvement
+for different cases, supporting H3.
+A comparison of the coefficient values for each independent
+variable of the three supported hypotheses (H1, H2a, and H3)
+shows consistent patterns.  In other words, all three different
+cases of social crises show that source ambiguity is the most
+important, personal involvement is next in importance, and
+anxiety is the least yet marginally important rumor causing
+factor.  However, different from our expectation, we could not
+find effects of content ambiguity and social tie on rumor.
+Therefore, H2b and H4 are not supported.
+8To test for the independence of error terms in the logistic regression model,
+a first order autocorrelation test was performed.  The Durbin-Watson test and
+the resulting d-statistic are used to perform this test.  If the d-statistic value
+is between lower and upper bound critical values (dU) and 4 – dU at p < .05,
+then no autocorrelation exists in the data set.  If the d-statistic value is less
+than the lower bound critical value (dL) at p < .05, then it confirms that
+positive autocorrelation exists in the data set.  If the d-statistic value is greater
+than 4 – dL, then it indicates that negative autocorrelation exists in the data
+set.  All d-statistic values in our data sets (1.94, 1.96, 1.99) were between the
+lower (dU = 1.93) and upper (4 – dU = 2.07) bound critical values, which
+indicate that error terms in our data sets are independent of each other
+(Murray 2005).
+MIS Quarterly Vol. 37 No. 2/June 2013 417
+
+Oh et al./Community Intelligence and Social Media Services
+Table 3.  Results for the Independent Effects on Rumor (95% CI for Exp(b))
+ 
+  Mumbai Terror 2008 Toyota Recall 2010 Seattle Shooting 2012
+        HypothesisB(SE) Sig. Exp(B) B(SE) Sig. Exp(B) B(SE) Sig. Exp(B)
+   Constant -1.364(.066) 0.000 .256
+-1.799
+  (.078) 0.000 .165
+-2.323
+  (0.079) 0.000 0.098
+   Anxiety .341(.096) 0.000 1.406***
+.464
+  (.257) .071 1.59*
+.262
+  (.123) 0.033 1.299**
+H1:  Partially
+Supported
+Source
+Ambiguity
+1.444
+  (.086) 0.000 4.237***
+1.509
+  (.088) 0.000 4.523***
+1.387
+  (.103) 0.000 4.001***
+H2a: 
+Supported
+Content
+Ambiguity
+.1
+  (.108) 0.357 1.105
+.194
+  (.201) .337 1.214
+-.104
+   (.19) 0.586 0.902 H2b:  Rejected
+Personal
+Involvement
+.53
+  (.09) 0.000 1.699***
+.766
+  (.28) .006 2.151***
+.337
+   (.149) .0204 1.401** H3:  Supported
+   Social Tie -1.114(.093) 0.000 .328
+.142
+  (.284) .619 1.152
+-.114
+   (.284) 0.687 0.892 H4:  Rejected
+   Model Fit  = 680.21, df =5 (p < .001)  = 260.94, df = 5 (p < .001)  = 292.69, df = 5 (p < .001)
+***Significant at the 0.01 level.  **Significant at the .05 level.  *Significant at the .10 level.
+Discussion
+Key Findings
+The results of logistic regression indicate that, while content
+ambiguity does not contribute to rumormongering, source
+ambiguity does so very significantly.  This result needs con-
+textual interpretation from the view of collective communi-
+cation behavior in virtual space during social crises.
+Twitter messages coded for content ambiguity were mainly
+composed of questions seeking information on the crisis
+situation or doubts expressing suspicion on Twitter posts.9
+Questioning or doubtful statements explicitly display the
+subjective nature of the messages.  The tone of the messages
+signals that they were not persuasive statements intended to
+make others believe and spread the received messages.  As a
+result, contrary to H2b, the content ambiguity variable turned
+out to be a nonsignificant rumormongering factor.  In contrast,
+messages in the category of source ambiguity frequently
+resembled third-person situation reports without sources being
+attached.10  In their postures, these statements looked like
+news reports, but without clear source, data, or context
+described.  This might have influenced their role as a rumor-
+mongering factor.
+The nonsignificant effect of content ambiguity and the highly
+significant effect of source ambiguity on rumormongering
+highlights the nature of citizen-centric social reporting behav-
+ior under crises.  As rumor studies tell, it is a spontaneous
+collective information processing behavior “to make sense of
+an unclear situation or to deal with a possible threat”
+(DiFonzo and Bordia 2007, p. 771).  However, given that col-
+lective information diffusion and processing essentially go
+parallel with the collective sense-making process in the
+Twitter space, citizen reporting cannot lead to successful
+sense making without a sufficient number of messages being
+supported with trusted sources.  This means that, unlike the
+mainstream media where professional reporters check infor-
+mation sources before publication, the shortage of reliable
+information in the social media space may be more likely to
+lead to questions seeking information, doubts expressing
+suspicions, subjective interpretations, or rumors.
+Another important finding is that, contrary to the traditional
+rumor research in the offline context, the results in Table 3
+show that the effect size of anxiety on rumoring is much
+lower than that of source ambiguity.  As Rosnow’s (1991)
+meta-analytic exploration of rumor studies shows, traditional
+rumor researchers have consistently reported that anxiety is
+normally the most influential rumormongering factor.  How-
+ever, in our case, the influence of anxiety (ranging from 1.299
+to 1.59 in its coefficient values) on rumor was much lower
+than that of source ambiguity (ranging from 4.001 to 4.523 in
+its coefficient values).
+9For example, “Fact or fiction?  Indian gov't trying to stop tweets about
+Mumbai?” (from the Mumbai terrorist attacks data), or “How does this make
+sense? Suspect [in] downtown was blond and suspect on Roosevelt was
+brown haired?” (from the Seattle shooting incident Twitter data).
+10“#mumbai The terrorist attacked a hospital for women and children and
+took patients hostage” (from the Mumbai terrorist attack data); “Toyota
+Moving Forward With Recall, Multiple Factories Closed” (from the Toyota
+recall data).
+ 418 MIS Quarterly Vol. 37 No. 2/June 2013
+
+Oh et al./Community Intelligence and Social Media Services
+This reversed influence can be described by the characteristics
+of social relations and their attendant communication patterns,
+which are propelled by different modes of community.
+Traditional rumor studies have been built upon the idea of
+territorial community.  That is, as triggers of rumor transmis-
+sion, rumor theory has maintained that social crises cause
+collective anxiety and ambiguous situations, which are com-
+monly experienced by people living in the adjacent territorial
+boundary of the crisis stricken community (Allport and
+Postman 1947; Festinger 1962; Shibutani 1966).  Therefore,
+when rumor theorists argue that rumors tend to “avoid
+crossing social barriers and therefore have a restricted
+circulation” (Allport and Postman 1947, p. 35) or it cannot
+travel without social support (Festinger 1962), they assume a
+territorial community in close proximity, which is somehow
+sustained by repeated social relations, some level of affective
+trust, and enduring shared values.  Therefore, the tightly knit
+territorial community is likely to impose social influences to
+accept the received message without checking facts or the
+source of the ambiguous information (Garrett 2011).  That
+means, people tend to trust information they receive from
+those they know, and replace with affective trust their dis-
+belief in the received information, even when its source is
+ambiguous.  Therefore, in the traditional territorial community
+supported by affective trust and preexisting social relations,
+shared anxiety may have been the more important rumor-
+causing factor, compared to source ambiguity.
+However, communication through the virtual space of Twitter
+has very different characteristics in terms of social relations
+and communication modes especially under social crises.  As
+Twitter communications are rapidly improvised in response
+to the social crises, territorial community boundary, pre-
+existing social ties, social influence, shared anxiety, and
+affective trust may be very weak or even almost absent.  It is
+highly likely that (1) Twitter communication on the Mumbai
+terrorist attacks was improvised at the national level,
+(2) Twitter communication on the Seattle shooting incident
+was mainly made at the Seattle community level, and
+(3) Twitter communication on the Toyota recall case may not
+even imply any traits of traditional territorial community. 
+Instead, they might have gathered on Twitter with temporary
+crisis issues to seek and share information on the unfolding
+crisis situations.  Therefore, compared to the territorial com-
+munity, the virtual Twitter space might have been an impro-
+vised, loose community where social relations are weak,
+affective trust is low, and hence little social pressure to accept
+ambiguous information.  In other words, as the Twitter com-
+munity has weaker social pressures, Twitter users do not
+easily accept dubious reports with ambiguous sources.  A few
+exemplary tweet messages that express distrust for unreliable
+information are as follows:
+“wish that people wouldn’t clutter @mumbai with
+stupid speculation and half-baked opinions” (from
+Mumbai terrorist attack data).
+“I’m seeing conflicting information about how many
+are dead from #RooseveltShooting – is it 2,3, or 4?
+Male or female?” (from Seattle shooting incident
+data).
+“Is it true that the Lexus engine will explode?  Who
+said that?” (from Toyota recall data).
+However, although aspects of the virtual community are
+dominant in Twitter, it does not necessarily mean that terri-
+torial traces are completely erased in a virtual community.
+The traces of territorial community are represented in the
+personal involvement statements11 in that those statements
+may have been posted by Twitter users who were in close
+proximity to the physical location of Mumbai or Seattle.12
+However, the fact that the effect of personal involvement on
+rumor (from 1.401 to 2.151) is much lower than that of source
+ambiguity (from 4.001 to 4.532) shows that, in aggregate, the
+Twitter space is dominated by the virtual characteristics of
+online community.
+As to social ties, which were measured by directed messages,
+we could not find its effect on rumors, hence H4 is rejected. 
+According to our close reading of directed messages, the main
+reason for the insignificance of H4 is that online users used
+directed messages primarily to ask about personal safety,
+share anxious feelings with their acquaintances, and for short
+chats.  It was very rare to use directed messages for situational
+information gathering and dissemination, hence they did not
+lead to rumor dissemination.
+Finally, it is noteworthy to mention the result of descriptive
+statistics in Table 4.  First, the very low frequency of anxiety
+in the Toyota recall data (2.20%), compared to that of the
+Mumbai terrorist attacks (22.35%) and the Seattle shooting
+incident (16.03%), confirms the insights of early rumor
+researchers that community crises (like war, terrorist attack,
+or natural disaster) involve high levels of anxiety at the
+community level (Allport et al. 1947; Oh et al. 2011; Oh et al.
+11“hearing navy sounds at the helipad near my house …” (from Mumbai
+terrorist attack data); “Dueling helicopters above our house.  Shooting sus-
+pect was shot and killed.  Which shooting is  unknown.  #downtownshooting
+#rooseveltshooting” (from Seattle shooting incident data).
+12Our appreciation goes to an anonymous reviewer who suggested the
+personal involvement variable.
+MIS Quarterly Vol. 37 No. 2/June 2013 419
+
+Oh et al./Community Intelligence and Social Media Services
+Table 4.  Frequency and Percentage of Each Variable of Different Social Crises
+  Mumbai Terror 2008 Toyota Recall 2010 Seattle Shooting 2012
+  Frequency (%) Percent Frequency (%) Percent Frequency (%) Percent
+   Rumor 1211 (34.61%) 1133 (32.38%) 649 (18.54%)
+   Anxiety 782 (22.35%) 77 (2.20%) 561 (16.03%)
+   Source Ambiguity 1670 (47.73%) 2136 (61.05%) 1512 (43.20%)
+   Content Ambiguity 537 (15.35%) 131 (3.74%) 163 (4.66%)
+   Personal Involvement 987 (28.21%) 69 (1.97%) 298 (8.51%)
+   Social Ties 1112 (31.78%) 63 (1.80%) 86 (2.46%)
+   Sample Size 3,500 3,500 3,500
+2010; Rosnow et al. 1976; Shibutani 1966).  Given that the
+Toyota recall case is more about a business crisis that is not
+attached to a physical community, it is understandable that the
+frequency of anxiety is very low (2.2%), and the effect of
+anxiety on rumor is only marginal at p < .1, but the effect of
+source ambiguity on rumor is very high at p < .01.  It implies
+that, different from other community crisis situations, rumors
+under business crisis tend to be driven primarily by informa-
+tion problems and very marginally by collective anxiety.  We
+can infer this reason from the fact that, while citizens facing
+the Toyota recalls have alternatives of not purchasing or not
+using the Toyota products, community crises like the Mumbai
+terrorist attacks and the Seattle shooting incident do not offer
+alternatives for citizens other than fleeing their communities.
+In addition, relative to the Toyota recall data (1.97%), the
+higher frequency of personal involvement in the cases of the
+Mumbai terrorist attacks (28.21%) and the Seattle shooting
+incident (8.51%) reveals that community disasters are more
+likely to exert direct effects on community members to con-
+sider them as personal problems.  For the same reason, it is no
+wonder that the frequency of anxiety is lowest in the business
+crisis of the Toyota recall case.
+Comparison of the two different community crises of the
+Mumbai terrorist attacks and the Seattle shooting incident
+show different patterns of communication.  The frequencies
+of all variables (rumor, source ambiguity, personal involve-
+ment, anxiety, content ambiguity, and social ties) in the large-
+scale Mumbai terrorist attacks are consistently higher than the
+corresponding frequencies in the local scale of the Seattle
+shooting incident.  As detailed in the previous section on the
+backgrounds of the three crises, the different frequencies
+reflect the differences in scales and impacts of the two com-
+munity crises.
+Theoretical Contributions
+By extending the traditional rumor theory to the social media
+context, we identified key variables (source ambiguity, per-
+sonal involvement, and anxiety) that explain rumor dissemin-
+on Twitter during diverse crisis events:  the Mumbai terrorist
+attacks, the Seattle shooting incident, and the Toyota recalls.
+The findings of our study reveal interesting patterns of collec-
+tive information processing, similar to those observed in
+offline contexts in prior research, yet with different modes,
+scale, and implications.  This result is contrary to findings of
+traditional rumor research in which anxiety is normally con-
+sidered the most influential factor in rumor spread.  To ex-
+plain the changed order of influences on rumors in the Twitter
+space, we contrasted two different types of community:  a
+tightly knit territorial community and an improvised virtual
+community for temporal emergency situations. Our interpre-
+tation is that, while the traditional territorial community
+replaces disbelief with affective trust for the ambiguous infor-
+mation, the improvised virtual community executes cognitive
+distrust for ambiguous information to understand uncertain
+situations and to reduce cognitive ambiguity.  Also, the des-
+criptive statistics in Table 4 confirmed that, while information
+of ambiguous provenance is a general rumor causing factor
+across business and community crises, the business crisis of
+the Toyota recalls show much lower levels of anxiety than the
+other two community crises in their collective reporting.
+Practical Contributions
+Many rumor researchers have warned that, unless properly
+managed, negative rumors can decrease morale and increase
+ 420 MIS Quarterly Vol. 37 No. 2/June 2013
+
+Oh et al./Community Intelligence and Social Media Services
+distrust in the capacity of the organization and government to
+protect their customers and citizens (Allport and Postman
+1947; Rosnow and Fine 1976).  Symptoms of these dele-
+terious effects were actually visible in our data set as well:
+“from karmayog #mumbai We are witnessing a lack
+of leadership from elected or appointed public
+representatives, bureaucrats, spiritual leader” (from
+the Mumbai terrorist attack data).
+“The mayor of #Seattle is a complete idiot.  Guns
+don't kill people, people kill people.#fb” (from the
+Seattle shooting incident data).
+“Dear Toyota, it would be easier to let us know
+which cars we can keep as it seems like almost all of
+them has been recalled” (from the Toyota recall
+data).
+As Rosnow (1991) suggests, one important task for crisis
+response is to control rumors and obtain and distribute local
+and reliable information to the affected community as early as
+possible.   The fact that source ambiguity is the most impor-
+tant rumor-causing factor across business and community
+crises provides an important implication for such responses. 
+Under crisis situations, if there are too many situation reports
+with ambiguous or no information source, then we can
+surmise that rumor mills are being constructed.  It may be a
+strong signal that people are desperately searching and
+sharing situational information through their social networks
+but without reliable information from authoritative sources.
+We believe that emergency response teams, in firms or
+governments, need to understand the crisis communication
+patterns and rumormongering conditions.  The descriptive
+statistics in Table 4 indicate that the low frequency of anxiety
+(2.20%) and high frequency of source ambiguity (32.38%) in
+the Toyota recall suggests that firms in a business crisis
+should pay attention to information issues to control rumor
+dissemination.   In contrast, in cases of community disasters,
+emergency responders need to make extra efforts to distribute
+reliable information and, at the same time, control collective
+anxiety in the community to suppress rumor spread.  That
+means, if unambiguous and localized situational information
+is not provided to the affected community in a timely manner,
+their collective information processing is very likely to
+encourage rumors.  Therefore, emergency response teams
+need to put in place prompt response systems to refute the
+wrong information and provide citizens with timely, localized,
+and correct information through multiple communication
+channels such as website links, social network websites, RSS,
+e-mail, text message, radio, TV, or Retweets.  In fact, given
+that the motivation of rumoring is fundamentally to deal with
+a possible threat (DiFonzo and Bordia 2007), provision of
+timely and certain information may lead to successful threat
+management in partnership with voluntary online citizens.
+Future Research and Conclusion
+To the best of our knowledge, this study is the first appli-
+cation of rumor theory to social media and community
+intelligence.  As a result, our suggested model needs replica-
+tion and refinement in different social media contexts.
+Further, as we coded all variables as binary data types, there
+could be information loss during coding and analysis.  It was,
+however, an inevitable choice in the situation that coders
+should manually read and code all data of tweet texts for all
+variables.  To overcome this limitation, development and use
+of richer measurement scales for all variables would be
+beneficial.  Future studies can combine archival data of social
+media with survey response data of online users who are
+involved in social reporting under different crisis situations.
+As the former national incident commander, Thad Allen,
+testified, it is almost certain that “there will never be a major
+disaster that won’t involve public participation” (Berinato
+2010, p. 78).  This offers many opportunities for the IS com-
+munity to contribute in solving crisis problems in business
+and society.  Among many, we suggest two promising
+research opportunities.
+First, unlike human response in traditional business contexts,
+much human response during crises is reflexive.  Therefore,
+evidence from prior extreme events should be used to guide
+interventions and agency response during social crises.  In the
+past, such research has been hampered by the lack of proxi-
+mate data from social crises.  However, the introduction of
+Twitter and other social media services has provided
+researchers with a precious window of data on information
+processing by concerned respondents, usually in the imme-
+diate aftermath of crisis incidents.  In this regard, analysis of
+social media data on social crises will offer invaluable insight
+to enhance individual and institutional capability to monitor
+and identify threats, needs, and opportunities to solve many
+crisis problems.
+Second, although many pundits have portrayed rosy pictures
+about the potential of online crowds for collaborative problem
+solving (Kazman and Chen 2009; Surowiecki 2005; Tapscott
+and Williams 2006), less attention has been paid to the infor-
+mation quality issues in the context of citizen-centric social
+media technologies.  However, given that information quality
+MIS Quarterly Vol. 37 No. 2/June 2013 421
+
+Oh et al./Community Intelligence and Social Media Services
+and the perceived trust on online information are critical
+success factors for e-commerce (Gefen et al. 2008) and infor-
+mation systems (DeLone and McLean 2003), the quality of
+social information produced by a multitude of social media
+users is likely to determine the success of collaborative prob-
+lem solving by the voluntary online public, especially under
+social crisis situations.  This study will be a good starting
+point to understand the issue of social information quality.
+Acknowledgments
+The authors would like to thank the senior editor, associate editor,
+and the review team for their encouragement.  We thank the referees
+for comments that have greatly improved the lucidity of the paper.
+We are also indebted to Stefan Stieglitz and Nina Krüger for making
+available the Toyota data set.  We also thank the following for
+research assistance during the course of this study:  Sahana Aranha,
+Sandesh Badarayani, Chris Bang, Masuma Dinani, Sathyanarayanan
+Gopalakrishnan, Shruti Jain, Yuvaraj Kondaswamy, Wen Luo,
+Himanshu Maheshwari, Srikanth Parameswaran, Shama Pillai,
+Lavanya Rao, Harish Shankara, Srikanth Venkatesan, Clayton
+Whitelaw, and Jinsoo Yeo.  Finally, we also express our deep grati-
+tude to Larry Brandt who set us off on this path.  We acknowledge
+the National Science Foundation (NSF) for supporting this research
+in part through awards IIS 0926376, 0916612, 1134853 and
+1227353.  The usual NSF disclaimer applies.  For this research, the
+last (corresponding) author was also supported by the World Class
+University program funded by the Ministry of Education, Science,
+and Technology through the National Research Foundation of Korea
+(R31-20002) and by the Sogang University Research Grant of 2011.
+We would like to dedicate this paper to all those who lost their lives
+in the 2008 Mumbai terrorist incident and the Seattle shooting
+incident of 2012.
+References
+Allen, K., and Sturcke, J.  2010.  “Timeline:  Toyota’s Recall
+Woes,” The Guardian, February 23 (http://www.guardian.co.uk/
+business/2010/jan/29/timeline-toyota-recall-accelerator-pedal;
+accessed September 17, 2012).
+Allport, G. W., and Postman, L.  1947.  The Psychology of Rumor,
+New York:  Henry Holt and Company.
+Anthony, S.  1973.  “Anxiety and Rumor,” The Journal of Social
+Psychology (89), pp. 91-98.
+Berinato, S.  2010.  “You Have to Lead from Everywhere:  An
+Interview with Admiral Thad Allen, USCG (Ret.),” Harvard
+Business Review (88:11), pp. 76-79.
+Bharosa, N., Janssen, M., Rao, H. R., and Lee, J.  2008.  “Adaptive
+Information Orchestration:  Architectural Principles Improving
+Information Quality,” in Proceedings of the 5th International
+ISCRAM Conference, Washington, DC, pp. 556-565.
+Bharosa, N., Lee, J., and Janssen, M.  2010.  “Challenges and
+Obstacles in Sharing and Coordinating Information during Multi-
+Agency Disaster Response:  Propositions from Field Exercises,”
+Information Systems Frontiers (12:1), pp. 49-65.
+Bordia, P.  1996.  Rumor Interaction Patterns on Computer-
+Mediated Communication Networks, unpublished Ph.D disser-
+tation, Psychology Department, The Temple University.
+Bordia, P., and DiFonzo, N.  1999.  “Rumor as Group Problem
+Solving:  Development Patterns in Informal Computer-Mediated
+Groups,” Small Research Group (30:8), pp. 8-28.
+Bordia, P., and DiFonzo, N.  2004.  “Problem Solving in Social
+Interactions on the Internet:  Rumor as Social Cognition,” Social
+Psychology Quarterly (67:1), pp. 33-49.
+Buckner, H. T.  1965.  “A Theory of Rumor Transmission,” The
+Public Opinion Quarterly (29:1), pp. 54-70.
+Chakraborty, R., Agrawal, M., and Rao, H. R.  2010.  “An
+Exploratory Study of Information Processing Under Stress:  The
+Case of Mumbai Police Control and First Responders during
+Terrorist Attacks of November 26, 2008,” paper presented at the
+Pre-ICIS ISGSEC Workshop on Information Security and
+Proviacy, St.  Louis, Missouri, December 12.
+CNN.  2012.  “Police:  ‘Hero’ Saved Several Seattle Café Patrons as
+Gunman Opended Fire,” May 31 (http://articles.cnn.com/2012-
+05-31/us/us_washington-cafe-shooting_1_police-chief-jim-pugel-
+shooting-gunman?_s=PM:US; accessed September 17, 2012).
+Collins, H. M.  2001.  “Tacit Knowledge, Trust and the Q of
+Sapphire,” Social Studies of Science (31:1), pp. 71-85.
+DeLone, W., and McLean E. R.  2003.  “The DeLone and McLean
+Model of Information Systems Success:  A Ten-Year Update,”
+Journal of Management Information Systems (19:4), pp. 9-30.
+DiFonzo, N., and Bordia, P.  2007.  “Rumor Transmission,” in
+Encyclopedia of Social Psychology, R. F. Baumeister and K. D.
+Vohs (eds.), Thousand Oaks, CA:  Sage Publications.
+Durbin, J., and Watson, G. S.  1951.  “Testing for Serial Correlation
+in Least Squares Regression.  II,” Biometrika Trust (38:1), pp.
+159-177.
+Festinger, L.  1957 A Theory of Cognitive Dissonance, Stanford,
+CA:  Stanford University Press.
+Field, A.  2005.   Discovering Statistics Using SPSS, London:  Sage
+Publications.
+Gahran, A.  2008.  “Tracking a Rumor:  Indian Government,
+Twitter, and Common Sense.,” Amy Gahran’s Blog, November
+27 (http://www.contentious.com/2008/11/27/tracking-a-rumor-
+indian-government-twitter-and-common-sens/; accessed Sep-
+tember 16, 2012).
+Garrett, R. K.  2011.  “Troubling Consequences of Online Political
+Rumoring,” Human Communication Research (37), pp. 255-274.
+Gefen, D., Benbasat, I., and Pavlou, P. A.  2008.  “A Research
+Agenda for Turst in Online Environment,” Journal of Manage-
+ment Information Systems (24:4), pp. 275-286.
+Indian Ministry of External Affairs.  2009.  “Mumbai Terror Attack:
+Dossier of Evidence,” (http://www.investigativeproject.org/
+documents/misc/277.pdf; accessed September 16, 2012).
+Janssen, M., Lee, J., Bharosa, N., and Cresswell, A.  2010.
+“Advances in Multi-Agency Disaster Management:  Key Ele-
+ments in Disaster Research,” Information Systems Frontiers
+(12:1), pp. 1-7.
+Jenvald, J., Morin, M., and Kincaid, J. P.  2001.  “A Framework for
+Web-Based Dissemination of Models and Lessons Learned from
+Emergency-Response Exercises and Operations,” International
+Journal of Emergency Management (1:1), pp. 82-94.
+ 422 MIS Quarterly Vol. 37 No. 2/June 2013
+
+Oh et al./Community Intelligence and Social Media Services
+Johnson, G.  2012.  “Seattle Gunman Kills 5, Injures 1 Before
+Shooting Self to Death,” Huffington Post, May 31 (http://www.
+huffingtonpost.com/2012/05/30/seattle-shootings-leave-
+4_n_1556911.html; accessed September 16, 2012).
+Kapferer, J.-N.  1990.  Rumors:  Uses, Interpretations, and Images,
+New Brunswick, NJ:  Transaction Publishers.
+Kazman, R., and Chen, H. M.  2009.  “The Metropolis Model:  A
+New Logic for Development of Crowd-Sourced Systems,” Com-
+munications of the ACM (52:7), pp. 78-84.
+Kendra, J. M., and Wachtendorg, T.  2003.  “Elements of Resilience
+After the World Trade Center Disaster:  Reconstituting New
+York City’s Emergency Operation Centre,” Disasters (27:1), pp.
+37-53.
+Kishore, R., Agrawal, M., and Rao, H. R.  2004-2005.  “Deter-
+minants of Sourcing During Techonology and Maturity:  An
+Empirical Study of E-Commerce Sourcing,” Journal of Manage-
+ment Information Systems (21:3), pp. 47-82.
+Knapp, R. H.  1944.  “A Psychology of Rumor,” Public Online
+Quarterly (8), pp. 22-27.
+Knopf, T. A.  1975.  Rumor, Race and Riots, New Brunswick, NJ:
+Transaction Books.
+Krippendorf, K.  1980.  Content Analysis:  An Introduction of its
+Methodology, Thousand Oaks, CA:  Sage Publications.
+Landis, J. R., and Koch, G. G.  1977.  “The Measurement of
+Observer Agreement for Categorical Data,” Biometrics (33), pp.
+159-174.
+Larson-Hall, J.  2010.  “Chapter 4:  Changing the Way We Do
+Statistics:  Hypothesis Testing,  Power, Effect Size, and Other
+Misunderstood Issues,” A Guide to Doing Statistics Research
+Using SPSS, New York:  Routledge, pp. 96-125.
+Leberecht, T.  2010.  “Twitter Grows Up in Aftermath of Haiti
+Earthquake,” CNET News, January 19 (http://news.cnet.com/
+8301-13641_3-10436435-44.html).
+Li, J., and Rao, H. R.  2010.  “Twitter as a Rapid Response News
+Service:  An Exploration in the Context of the 2008 China Earth-
+quake,” Electronic Journal of Information Systems in Developing
+Countries (42), pp. 1-22.
+Majchrzak, A., Jarvenpaa, S. L., and Hollingshead, A. B.  2007.
+“Coordinating Expertise Among Emergent Groups Responding
+to Disasters,” Organization Science (18:1), pp, 147-161.
+McNerthney, C.  2012.  “Shooting Suspect Visited Bar Before; Gave
+Off a ‘Bad Vibe’,” Seattle PI, May 31  (http://www.seattlepi.
+com/local/article/Seattle-shooting-two-killed-three-wounded-
+3595992.php#ixzz1wTdZntvJ; accessed September 17, 2012).
+McPhail, C.  1991.  “Challenging the Myth:  Sherif, Turner and
+Killian,” in The Myth of the Madding Crowd, New York:  Walter
+de Gruyter Inc., pp. 61-103.
+Metaxas, P. T., and Mustafaraj, E.  2010.  “From Obscurity to
+Prominence in Minutes:  Political Speech and Real-Time
+Search,” in Proceedings of the WebSci 10:  Extending the Fron-
+tiers of Society On-Line, Raleigh, NC, April 26-27.
+Mileti, D. S., and Darlington, J. D.  1997.  “The Role of Searching
+in Shaping Reactions to Earthquake Risk Information,” Social
+Problems (44:1), pp. 89-103.
+Mills, A., Chen, R., Lee, J., and Rao, H. R.  2009.  “Web 2.0 Emer-
+gency Applications:  How Useful Can Twitter Be,” Journal of
+Information Privacy and Security (5:3), pp. 3-26.
+Murray, M. P.  2005.  Econometrics:  A Modern Introduction (1st
+ed.), Upper Saddle River, NJ:  Prentice Hall.
+Oh, O., Agrawal, M., and Rao, H. R.  2011.  “Information Control
+and Terrorism:  Tracking the Mumbai Terrorist Attack through
+Twitter,” Information Systems Frontier (13), pp. 33-44.
+Oh, O., Kwon, K. H., and Rao, H. R.  2010.  “An Exploration of
+Social Media in Extreme Events:  Rumor Theory and Twitter
+during the Haiti Earthquake 2010,” in Proceedings of the 31st
+International Conference on Information Systems, Saint Louis,
+MO, December 12-15.
+Palen, L., Anderson, K. M., Mark, G., Martin, J., Sicker, D.,
+Palmer, M., and Grunwald, D.  2010.  “A Vision for Technology-
+Mediated Support for Public Participation & Assistance in Mass
+Emergencies & Disasters,” in Proceedings of ACM-BCS Visions
+of Computer Science 2010, The University of Edinburgh, UK,
+April 14-16, pp. 1-12.
+Palen, L., Vieweg, S., Liu, S. B., and Hughes, A. L.  2009.  “Crisis
+in a Networked World Features of Computer-Mediated Com-
+munication in the April 16, 2007, Virginia Tech Event,” Social
+Science Computer Review (27:5), pp. 1-14.
+Prasad, J.  1935.  “The Psychology of Rumor:  A Study Relating to
+the Great Indian Earthquake of 1934,” British Journal of
+Psychology (41), pp. 129-144.
+Prasad, J.  1950.  “A Comparative Study of Rumours and Reports in
+Different Earthquakes,” British Journal of Psychology (41), pp.
+129-144.
+Quarantelli, E. L., and Wenger, D.  1989.  “A Cross-Societal Com-
+parison of Disaster News Reporting in Japan and the United
+States,” Preliminary Paper #142, Disaster Research Center,
+University of Delaware.
+Raman, B.  2009.  “Mumbai Terrorist Attack:  Some Aspects,”
+Raman’s Terrorism Analysis, January 13 (http://
+ramansterrorismanalysis.blogspot.com/2009/01/mumbai-terrorist-
+attack-some-aspects.html; accessed September 16, 2012).
+Reuters.  2010.  “Toyota Recalling Over 416,000 Cars in U.S.,
+Canada,” Reuters, July 29 (http://www.reuters.com/article/2010/
+07/29/us-toyota-recall-idUSTRE66S1KR20100729; accessed
+September 16, 2012).
+Rosnow, R. L.  1991.  “Inside Rumor:  A Personal Journey,” Ameri-
+can Psychologist (46:5 ), pp. 484-496.
+Rosnow, R. L., Esposito, J. L., and Gibney, L.  1988.  “Factors
+Influencing Rumor Spreading:  Replication and Extension,”
+Language and Communication (8), pp. 29-42.
+Rosnow, R. L., and Fine, G. A.  1976.  Rumor and Gossip:  The
+Social Psychology of Hearsay, New York:  Elsevier Inc.
+Rosnow, R. L., and Kimmel, A. J.  2000.  “Rumor,” in  Encyclo-
+pedia of Psychology, A. E. Kazdin (ed.), New York:  Oxford
+University Press and American Psychology Association, pp.
+122-123.
+Runyan, R. C.  2006.  “Small Business in the Face of Crisis:  Iden-
+tifying Barriers to Recovery from a Natural Disaster,” Journal of
+Contingencies and Crisis Management (14:1), pp. 12-26.
+Savin, N. E., and White, K. J.  1977.  “The Durbin-Watson Test for
+Serial Correlation with Extreme Sample Sizes or Many
+Regressors,” Econometrica (45:8), pp. 1989-1996.
+Scanlon, J.  2007.  “Convergence Unlimited:  Overloaded Call
+Centers and the Indian Ocean Tsunami,” International Journal of
+Emergency Management (4:2), pp. 211-238.
+MIS Quarterly Vol. 37 No. 2/June 2013 423
+
+Oh et al./Community Intelligence and Social Media Services
+Shibutani, T.  1966.  Improvised News:  A Sociological Study of
+Rumor, Indianapolis, IN:  The Bobbs-Merrill Company Inc.
+Shklovski, I., Burke, M., Kiesler, S., and Kraut, R.  2010.  “Tech-
+nology Adoption and Us in the Aftermath of Hurricane Katrina
+in New Orleans,” American Behavioral Scientist (53:8), pp.
+1128-1246.
+Shklovski, I., Palen, L., and Sutton, J.  2008.  “Finding Community
+Through Information and Communication Technology During
+Disaster Events,” in Proceedings of 2008 ACM Conference on
+Computer Supported Cooperative Work, San Diego, CA,
+November 8-12, pp. 127-136.
+Singh, P., Singh, P., Park, I., Lee, J., and Rao, H. R.  2009.  “Infor-
+mation Sharing:  A Study of Information Attributes and Their
+Relative Significance During Catastrophic Events,” Cyber-
+Security and Global Information Assurance:  Threat Analysis and
+Response Solutions, K. J. Knapp (ed.), Hershey, PA:  IGI Global.
+Stallings, R. A., and Quarantelli, E. L.  1985.  “Emergent Citizen
+Groups and Emergent Management,” Public Administration
+Review (45), pp. 93-100.
+Starbird, K., and Palen, L.  2010.  “Pass It On?  Retweeting in Mass
+Emergency,” in Proceedings of the 7th International ISCRAM
+Conference, Seattle, WA, May 2-5.
+Stieglitz, S., and Krüger, N.  2011.  “Analysis of Sentiments in
+Corporate Twitter Communication – A Case Study on an Issue of
+Toyota,” in Proceedings of 22nd Australian Conference on Infor-
+mation Systems, Sydney, Australia, November 30-December 2.
+Sutton, J., Palen, L., and Shklovski, I.  2008.  “Backchannels on the
+Front Lines:  Emergent Uses of Social Media in the 2007
+Southern California Wildfires,” in Proceedings of 5th
+International ISCRAM Conference, Washington, D.C.
+Surowiecki, J.  2005.  The Wisdom of Crowds, New York: 
+Doubleday.
+Tabachnick, B.G. and Fidell, L.S. 1996.  Using Multivariate Statis-
+tics, New York:  HarperCollins
+Tapscott, D., and Williams, A. D.  2006.  Wikinomics:  How Mass
+Collaboration Changes Everything, New York:  Penguin Group.
+Tasi, W., and Ghoshal, S.  1998.  “Social Capital and Value Crea-
+tion:  The Role of Intrafirm Networks,” The Academy of
+Management Journal (41:4), pp. 464-476.
+Tierney, K. J., and Aguirre, B. E.  2001.  “Testing Shibutani’s
+Prediction of Information Seeking Behavior in Rumor,” Pre-
+liminary Paper #307, Disaster Research Center, University of
+Delaware.
+Wasserman, T.  2011.  “How Toyota Used Social Media to ‘Digg’
+Itself Out of a PR Nightmare,” Mashable Social Media, Sep-
+tember 1 (http://mashable.com/2011/09/01/toyota-digg-recalls/;
+accessed September 17, 2012).
+Wenger, D., and Friedman, B.  1986.  “Local and National Media
+Coverage of Disasters:  A Content Analysis of the Print Media’s
+Treatment of Disasters Myths,” Journal of Mass Emergencies
+and Disasters (4:3), pp. 27-50.
+Winter, M.  2012.  “Suspected Gunman, 5 Others Dead in Seattle
+Shootings,” USA Today, May 30 (http://content.usatoday.com/
+communities/ondeadline/post/2012/05/seattle-shootings-kill-3-
+wound-3/1#.UFe1qKSe5eJ; accessed September 17, 2012).
+Yang, J., Lee, J., Rao, A., and Touqan, N.  2009.  “Inter-Organiza-
+tional Communications in Disaster Management,” in  Handbook
+of Research on ICT-Enabled Transformational Government:  A
+Global Perspective, V. Weerakkody, M. Janssen, and Y. Dwivedi
+(eds.), Hershey, PA:  IGI Global.
+Yoo, Y.  2010.  “Computing in Everyday Life:  A Call for Research
+on Experiential Computing,” MIS Quarterly (34:2) pp, 214-231.
+About the Authors
+Onook Oh is an assistant professor with the Information Systems
+and Management Group at Warwick Business School, University of
+Warwick.  His research interests are in the areas of new modalities
+of information exchange and social media, crowdsourcing, open
+collaboration, and use of social media in information assurance and
+extreme events.  His papers have been published or are forthcoming
+in Communications of AIS, Information Systems Frontiers, AIS
+Transactions on Human-Computer Interaction, and Information
+Systems Management.  He has also presented his papers at major
+national and international IS conferences.  He completed his Ph.D.
+at SUNY Buffalo.
+Manish Agrawal is an associate professor in the department of
+Information Systems and Decision Sciences of the College of
+Business Administration at the University of South Florida, Tampa,
+Florida.  His current research interests include information security,
+software quality, and the use of IT during extreme events.  His
+articles have appeared or are to appear in journals including Man-
+agement Science, Journal of Management Information Systems, MIS
+Quarterly,  INFORMS Journal on Computing, and IEEE Trans-
+actions on Software Engineering.  His research received the Design
+Science Award from the INFORMS Information Systems Society. 
+He completed his Ph.D. at SUNY Buffalo.
+H. R. Rao (corresponding author) is a Distinguished Service Pro-
+fessor in the department of Management Science and Systems at
+SUNY Buffalo, with a courtesy appointment with Computer Science
+and Engineering as adjunct professor, and World Class University
+Visiting Professor in the Department of Global Service Management
+at Sogang Univeristy, South Korea.  His interests are in the areas of
+management information systems, e-business, emergency response
+management systems, and information assurance.  He received a
+Fulbright fellowship in 2004.  His research is supported by the
+National Science Foundation and the Department of Defense.  Dr.
+Rao has served as coeditor of special issues of The Annals of Opera-
+tions Research and Communications of the ACM, as associate editor
+for Decision Support Systems, Information Systems Research, ACM
+Transactions on MIS, and IEEE Transactions on Systems, Man and
+Cybernetics, and coeditor-in-chief of Information Systems Frontiers.
+He has published over 150 papers in journals including Decision
+Support Systems, Information Systems Research, ACM Transactions
+on MIS, and IEEE Transactions on Systems, Man and Cybernetics. 
+He completed his Ph.D. at Purdue University.
+ 424 MIS Quarterly Vol. 37 No. 2/June 2013
+
+Oh et al./Community Intelligence and Social Media Services
+Appendix A
+Coding Scheme
+ Variable Definition
+Data
+Type
+Rumor (DV) A Twitter message which does NOT explicitly indicate a person (e.g., the prime minister of Indian
+government), source (e.g., BBC, NDTV, website, etc.), context or known data to serve as a proof
+or verification for the message.  The message MUST be topically relevant to the incidents under
+this study (Mumbai terrorist attack, Toyota recalls, and Seattle shooting incident), and it MUST
+refer to an object, person, or situation rather than an idea or theory (Bordia 1996; Buckner 1965;
+Rosnow et al.1988; Rosnow and Kimmel 2000).
+Examples 
+ 1. “stock markets a bit up n down.  The Sensex has always risen after terror attacks in 1993 and
+2006.  Hope so this time too!” (coded as “1,” indicating a rumor)
+ 2. “Metro cinema attacked by grenades.  All were killed b4 nsg [National Security Guard, authors
+added] storming” (coded as “1,” indicating a rumor)
+ 3. “Injured reports rise from 185 to 187 now.  #mumbai CNN.com” (coded as “0,” indicating not a
+rumor)
+Binary
+Source 
+Ambiguity
+(IV)
+A Twitter message which does not contain an external source (such as name of media or links to
+external media, video, picture, etc.) or/and a Twitter message that expresses distrust and/or
+ambiguity about the source.
+Examples
+ 1. “#Mumbai IDesiTV.com Video stream link http://idesitv.com/starnews.php.  Very spotty info
+about Oberoi/Trident and Santa Cruz Airport.” (coded as “1,” indicating that the message
+expresses ambiguity about the source)
+ 2. “more hostages at the Cama hospital - #Mumbai” (coded as “1,” indicating that the message
+does not provide information source)
+ 3. “Live twitter news feed for Mumbai attacks http://tinyurl.com/6b4wjj” (coded as “0,” indicating
+that the information source is not ambiguous)
+Binary
+ Anxiety (IV) A Twitter message “that express rumor related fear, dread, anxiety or apprehension, and
+statement that express a ‘threatened’ feeling” (Bordia 1996).
+Examples
+ 1. “Scared to sleep not knowing what i’ll wake up to #mumbai” (coded as “1”)
+ 2.  “How will India bounce back?  Sadly I have no faith in the leadership to take control and stop
+these heinous acts!” (coded as “1”)
+ 3. “Good going by the NSG ....  we are proud of what you did in #mumbai ...” (coded as “0,”
+indicating no anxious feeling)
+Binary
+Personal
+Involvement
+(IV)
+A Twitter message “that describe[s] experiences of the person, in the context of the rumor”
+(Bordia 1996, p. 22).  A Twitter message that expresses that s/he is personally involved in,
+committed to, or has some relationship to the event (McPhail 1991, p. 77).
+Examples
+ 1. “hearing navy sounds at the helipad near my house ...  still 90+ snaps to be uploaded.  plan to
+catch up  on TV now!” (coded as “1”)
+ 2. “im locked inside Vitthals restaurant with a few frnds.  shutters down .  this is as close as i can
+get to the action #mumbai” (coded as “1”)
+ 3. “Still blown away by the twitter response to Mumbai” (coded as “0”)
+Binary
+MIS Quarterly Vol. 37 No. 2/June 2013 425
+
+Oh et al./Community Intelligence and Social Media Services
+ Variable Definition
+Data
+Type
+Content
+Ambiguity
+(IV)
+A Twitter message that expresses ambiguity or distrust about the Twitter message content.  A
+Twitter message that expresses that the given information is conflicting in nature.  A Twitter
+message for which a person expresses distrust or confusion (Allport and Postman 1947). 
+“Questions seeking information.  This category does not include sarcastic remarks or persuasion
+attempts” (Bordia 1996).
+Examples
+ 1. “Just received SMS/calls with info on further shootings in Marine Lines, Fountain and Princess
+Street; rumors?  or true?  #Mumbai” (coded as “1”)
+ 2. “what is #mumbai wisdom?  Number of terrorists?  No captured?  No killed?” (coded as “1”)
+ 3. “Interview of Navy commando's in CNN IBN” (coded as “0”)
+Binary
+Social Ties
+(Directed
+Messages)
+(IV)
+A Twitter message directed to specific user account.
+Examples
+ 1. “@xxxx @yyyyy Nick, apparently yes.  For latest Mumbai tweets:  http://tinyurl.com/55h2m8”
+(coded as “1”) 
+ 2. “@yyyy is your family safe?” (coded as “1”)
+Binary
+ 426 MIS Quarterly Vol. 37 No. 2/June 2013
+
+SPECIAL ISSUE:  DIGITAL BUSINESS STRATEGY
+HOW A FIRM’S COMPETITIVE ENVIRONMENT AND
+DIGITAL STRATEGIC POSTURE INFLUENCE
+DIGITAL BUSINESS STRATEGY
+Sunil Mithas
+Robert H. Smith School of Business, University of Maryland, Van Munching Hall,
+College Park, MD  20742   U.S.A.  {smithas@rhsmith.umd.edu}
+Ali Tafti
+College of Business, University of Illinois at Urbana-Champaign,
+Champaign, IL  61820  U.S.A.  {atafti@illinois.edu}
+Will Mitchell
+Rotman School of Management, University of Toronto, Toronto, ON  CANADA  {william.mitchell@rotman.utoronto.ca}
+and Duke University, Durham, NC  27708  U.S.A.  {will.mitchell@duke.edu}
+Appendix
+MIS Quarterly Vol. 37 No. 2—Appendix/June 2013 A1
+
+ Mithas et al./Influence of Competitive En vironment & Digital Strategic Posture
+Table A1.  Firm Performance Model Showing the Effect of Current Year IT Investments on Tobin’s q
+(Dependent Variable Is Tobin’s q).  Random Effects Panel Regression.  
+(1)
+Tobin’s q
+ IT_STRATPOSTURE (Industry Norm Minus Firm’s IT investments) -0.710
+(1.517)
+ IT (current year) 3.653***
+(1.182)
+ IT × INDTURB -76.62***
+(17.91)
+ IT × HHI -16.12
+(16.43)
+ IT × INDGROWTH 82.85**
+(36.89)
+ IT × COMPUNC -14.77
+(24.44)
+Industry Turbulence (INDTURB)
+ 
+-0.456
+(0.950)
+Herfindahl-Hirschman Index (HHI)
+ 
+-0.754
+(1.013)
+ Industry Growth (INDGROWTH) 6.640***
+(2.227)
+ Competitive Uncertainty (COMPUNC) 0.913
+(0.613)
+ Lag Investment (IT) -1.249
+(1.709)
+ Related Diversification -2,901**
+(1,167)
+ Firm size:  Log(Employees) -0.0970
+(0.0613)
+ ADV -0.00294
+(0.0378)
+ RD -0.0404**
+(0.0204)
+Tobin’s q Industry Avg.  0.565***
+(0.217)
+ Observations 1,018
+ Number of Firms 335
+ Hausman test comparison with Fixed Effects 8.93 (p = 0.78)
+ R² 0.22
+ Wald χ² 196.3***
+Robust standard errors in parentheses; ***p < 0.01; **p < 0.05; *p < 0.10
+The estimated model includes an intercept, physical capital intensity, market share, an indicator variable for regulated industry, and indicator
+variables for year and industry.  Variables in interaction terms are mean centered.  We rescaled several variables to produce meaningful
+  coefficient decimal places:  Competitive uncertainty (× 100), i ndustry growth (× 10), free cash flow (× 10,000), related divers ification (×
+10,000).  The Hausman test statistic suggests no significant difference from fixed-effects panel estimates.
+ A2 MIS Quarterly Vol. 37 No. 2—Appendix/June 2013
+
+ Mithas et al./Influence of Competitive En vironment & Digital Strategic Posture
+Table A2.  Effect of Outsourcing Strategic Posture on IT Investments (Dependent Variable Is IT
+Investments).  OLS Regression Estimates.  
+(1)
+IT Investments 
+OS_STRATPOSTURE 0.000573*
+(0.000313)
+OS_STRATPOSTURE × INDTURB 
+ 
+-0.00145
+(0.00206)
+OS_STRATPOSTURE × HHI 
+ 
+-0.00100
+(0.00128)
+OS_STRATPOSTURE × INDGROWTH 
+ 
+-0.00182
+(0.00341)
+OS_STRATPOSTURE × COMPUNC 
+ 
+0.000786
+(0.00316)
+Industry Turbulence (INDTURB)
+ 
+0.0218
+(0.0308)
+Herfindahl-Hirschman Index (HHI)
+ 
+0.0120
+(0.0169)
+ Industry Growth (INDGROWTH) 0.0144
+(0.0471)
+Competitive Uncertainty (COMPUNC)
+ 
+0.0124
+(0.0360)
+ Lag Investment (Outsourcing) 0.000590*
+(0.000335)
+ Related Diversification -40.39**
+(18.71)
+ Firm size:  Log(Employees) 0.00281***
+(0.000900)
+ Market share -0.0578***
+(0.0209)
+ Observations 519
+ R² 0.219
+ F stat 6.657***
+Robust standard errors in parentheses.  ***p < 0.01; **p < 0.05; *p < 0.10
+The estimated model includes an intercept, free cash flow, and indicator variables for year and industry.  Variables in interaction terms are mean
+ centered.  We rescaled several variables to produce meaningful coefficient decimal places:  Competitive uncertainty (× 100), in dustry growth
+ (× 10), free cash flow (× 10,000), re lated diversification (× 10,000).
+MIS Quarterly Vol. 37 No. 2—Appendix/June 2013 A3
+
+ Mithas et al./Influence of Competitive En vironment & Digital Strategic Posture
+Table A3.  Seemingly Unrelated Regression (SUR) Estimates
+ Positive coefficient on IT_STRATPOSTURE or OS_STRATPO STURE suggests convergence in IT investment or out-
+sourcing, respectively; negative coefficient suggests divergence; positive interaction effects suggest stronger convergence
+due to environmental factors; and negative interactions suggest stronger divergence due to environmental factors.
+(1)
+IT Investment
+(2)
+Outsourcing Pct. of IT
+ IT_STRATPOSTURE × INDTURB (H1 -) -6.156***
+(1.078)
+ IT_STRATPOSTURE × HHI (H2 +) -0.102
+(0.701)
+ IT_STRATPOSTURE × INDGROWTH (H3 +) 5.908***
+(1.520)
+ IT_STRATPOSTURE × COMPUNC -2.485***
+(0.707)
+ OS_STRATPOSTURE × INDTURB (H1 -) 1.769
+(1.313)
+ OS_STRATPOSTURE × HHi (H2 +) 0.673#
+(0.461)
+ OS_STRATPOSTURE × INDGROWTH (H3 +) 4.540***
+(1.579)
+ OS_STRATPOSTURE × COMPUNC 1.233
+(1.234)
+ Industry Turbulence (INDTUR) 0.0524*
+(0.0290)
+20.77
+(17.40)
+ Herfindahl-Hirshman Index (HHI) -0.00292
+(0.0179)
+-24.85**
+(10.86)
+ Industry Growth (INDGROWTH) -0.0174
+(0.0390)
+-38.69*
+(23.37)
+ Competitive  Uncertainty (COMPUNC) 0.0115
+(0.0285)
+-8.715
+(16.83)
+ Lag Investment (IT) 0.943***
+(0.0596)
+ Firm Size:  Log(Employees) 0.00120
+(0.000728)
+0.0716
+(0.433)
+ Related Diversification 0.668
+(19.46)
+21,839*
+(11,828)
+ Free Cash Flow -0.00375
+(0.00493)
+3.758
+(2.998)
+ Market Share -0.0276
+(0.0187)
+12.13
+(11.14)
+ IT_STRATPOSTURE (IT Strategic Posture) 0.0744
+(0.0521)
+  OS_STRATPOSTURE (Outsourci ng Strategic Posture) -0.0715
+(0.0570)
+ Lag Investment (Outsourcing) 0.661***
+(0.0632)
+  Observations 406 406
+  R² 0.729 0.609
+  F stat 42.10*** 24.51***
+Standard errors in parentheses.  ***p < 0.01; **p < 0.05; *p < 0.10; #p < 0.10 (one-tail)
+The estimated models include an intercept and indicator variables for year and industry.  Variables in interaction terms are mean centered.  We
+rescaled several variables to produce meaningful coefficient decimal places:  Competitive uncertainty (× 100), industry growth (× 10), free
+cash flow (× 10,000), related diversification (× 10,000).
+ A4 MIS Quarterly Vol. 37 No. 2—Appendix/June 2013
+
+ Mithas et al./Influence of Competitive En vironment & Digital Strategic Posture
+Table A4.   Robustness Checks (Including Controls for Diversification and Number of Industry
+Segments) Fixed-Effects Panel Regressions.  Dependent Variable Is IT Investment.
+    (1) (2) (3) (4) (5)
+      β1 :  IT_STRATPOSTURE × INDTURB  (H1 -) -5 .944*** -7.399*** -7.274*** -5.306*** -7.994***
+    (0.619) (0.598) (0.599) (0.603) (0.609)
+     β2 :  IT_STRATPOSTURE × HHI (H2 +) 1.137* -0.104 -0.633 0.435 -0.392
+    (0.642) (0.586) (0.631) (0.624) (0.585)
+      β3:  IT_STRATPOSTURE × INDGROWTH (H 3 +) 4.809*** 3.018*** 2.616** 4.569*** 3.029***
+    (1.195) (1.139) (1.151) (1.206) (1.129)
+    IT_STRATPOSTURE × COMPUNC -4.344*** -2.177*** -2.508*** -5.608*** -2.110***
+    (0.818) (0.781) (0.793) (0.758) (0.770)
+      IT_STRATPOSTURE 0.0352 -0 .000771 0.0320 0.111** 0.0158
+    (0.0530) (0.0479) (0.0500) (0.0498) (0.0471)
+  NUM_SEGMENTS 0.000500 0.000468
+ (0.00137) (0.00127)
+ IT_STRATPOSTURE × NUM_SEGMENTS -0.128***
+(0.0114)
+ TOTALDIVERSE 0.00861 0.00863
+ (0.00532) (0.00530)
+  IT_STRATPOSTURE × TOTALDIVERSE -0.400*** -0.459***
+ (0.0381) (0.0462)
+     RELDIVERSE -0.000799 -0.00847 -0.00968 -0.00341 -0.00202
+    (0.00636) (0.00711) (0.00712) (0.00666) (0.00619)
+  IT_STRATPOSTURE × RELDIVERSE -0.272*** 0.177**
+ (0.0693) (0.0794)
+    INDTURB 0.0476* 0.0359 0.0341 0.0486* 0.0360
+    (0.0261) (0.0247) (0.0247) (0.0265) (0.0246)
+     HHI 0.202*** 0.173*** 0.164** 0.197*** 0.152**
+    (0.0686) (0.0657) (0.0657) (0.0695) (0.0648)
+     INDGROWTH 0.0812** 0.0702* 0.0691* 0.0795* 0.0667*
+    (0.0409) (0.0388) (0.0387) (0.0415) (0.0386)
+     COMPUNC (competitive uncertainty) -0.00738 -0.00975 -0.00782 -0.00200 -0.00800
+    (0.0240) (0.0227) (0.0227) (0.0242) (0.0225)
+     1 yr Lag IT Investment 0.462*** 0.353*** 0.390*** 0.568*** 0.425***
+    (0.0657) (0.0603) (0.0624) (0.0606) (0.0577)
+     Firm size:  Log(Employees) 0.000692 -0.00131 -0.00136 0.00118 -0.00138
+    (0.00286) (0.00272) (0.00271) (0.00289) (0.00269)
+     Free Cash Flow -0.00358 -0.00463 -0.00469 -0.00311 -0.00502
+    (0.00524) (0.00497) (0.00496) (0.00530) (0.00493)
+     Market share -0.0958 -0.0725 -0.0663 -0.0948 -0.0634
+    (0.0599) (0.0572) (0.0572) (0.0606) (0.0564)
+     Observations 1,225 1,225 1,225 1,225 1,225
+     E² 0.530 0.580 0.583 0.521 0.587
+     Number of firms 400 400 400 400 400
+     F stat 47.90*** 55.65*** 53.50*** 46.23*** 57.13***
+Standard errors in parentheses.  ***p < 0.01; **p < 0.05; *p < 0.10
+The estimated models include an intercept, and indicator variables for year and industry.  Variables in interaction terms are mean centered. 
+ We rescaled several variables to produce meaningful coefficient decimal places:  Competitive uncertainty (× 100), industry grow th (× 10), free
+cash flow (× 10,000), related diversification (× 10,000).
+MIS Quarterly Vol. 37 No. 2—Appendix/June 2013 A5
+
+ Mithas et al./Influence of Competitive En vironment & Digital Strategic Posture
+Table A5. Robustness Checks (Controlling for Current Year and Prior Year Performance)  Fixed-Effects
+Panel Regressions.  Dependent Variable I IT investment.
+   (1) (2) (3) (4)
+  Tobin’s Q (current year) 0.00101 0.00101
+ (0.000745) (0.000753)
+  Tobin’s Q (prior year) 1.42e-05 -6.29e-06
+ (0.000145) (0.000149)
+    β1 :  IT_STRATPOSTURE × INDTURB  (H1 -) -5.291*** -5.327*** -5.336*** -5.328***
+   (0.601) (0.637) (0.638) (0.639)
+    β2 :  IT_STRATPOSTURE × HHI (H2 +) 0.443 0.489 0.486 0.501
+   (0.623) (0.670) (0.670) (0.674)
+    β3:  IT_STRATPOSTURE × INDGROWTH (H3 +) 4.546*** 4.397*** 4.415*** 4.401***
+   (1.203) (1.278) (1.280) (1.282)
+     IT_STRATPOSTURE × COMPUNC -5. 618*** -5.824*** -5.803*** -5.831***
+   (0.757) (0.813) (0.814) (0.817)
+    IT_STRATPOSTURE 0.111** 0.109** 0.110** 0.110**
+   (0.0498) (0.0530) (0.0531) (0.0533)
+   INDTURB 0.0478* 0.0636** 0.0640** 0.0636**
+   (0.0263) (0.0311) (0.0311) (0.0313)
+    HHI 0.195*** 0.207*** 0.211*** 0.209***
+   (0.0692) (0.0774) (0.0774) (0.0780)
+    INDGROWTH 0.0812** 0.0825* 0.0878* 0.0823*
+   (0.0413) (0.0467) (0.0467) (0.0469)
+    COMPUNC -0.00242 -0.00299 -0.000133 -0.00250
+   (0.0242) (0.0287) (0.0289) (0.0292)
+    1 yr Lag IT Investment 0.567*** 0.552*** 0.552*** 0.552***
+   (0.0605) (0.0648) (0.0650) (0.0651)
+    Firm size:  Log(Employees) 0.00121 0.000366 2.85e-05 0.000365
+   (0.00288) (0.00323) (0.00322) (0.00324)
+    RELDIVERSE -27.39 -27.73 -26.16 -26.71
+   (64.00) (71.52) (72.59) (72.87)
+    Free Cash Flow -0.00324 -0.00335 -0.00367 -0.00299
+   (0.00529) (0.00586) (0.00791) (0.00813)
+    Market share -0.0935 -0.0948 -0.0928 -0.0957
+   (0.0604) (0.0652) (0.0650) (0.0656)
+    Observations 1,225 1,071 1,066 1,062
+    R² 0.521 0.526 0.525 0.526
+    Number of firms 400 348 344 343
+    F stat 48.84*** 41.04*** 40.84*** 38.72***
+Standard errors in parentheses.  ***p < 0.01, **p < 0.05, *p < 0.10
+The estimated models include an intercept, and indicator variables for year and industry.  Variables in interaction terms are mean centered. 
+ We rescaled several variables to produce meaningful coefficient decimal places:  Competitive uncertainty (× 100), industry grow th (× 10), free
+cash flow (× 10,000), related diversification (× 10,000).
+ A6 MIS Quarterly Vol. 37 No. 2—Appendix/June 2013
+
+ Mithas et al./Influence of Competitive En vironment & Digital Strategic Posture
+Table A6.  Using Rolling Averages of Strategic Posture Fixed-Effects Panel Regressions.  Dependent
+Variable Is IT Investment.
+(1)
+Base Model
+Same as Column 2 of
+Table 3
+(2)
+Using Two-Year
+Rolling Average for IT
+Strategic Posture 
+ β 1:  IT_STRATPOSTURE × INDTURB  (H1 -) -5.291***
+(0.601)
+ β 2:  IT_STRATPOSTURE × HHI (H2 +) 0.443
+(0.623)
+ β 3:  IT_STRATPOSTURE × INDGROWTH (H3 +) 4.546***
+(1.203)
+IT_STRATPOSTURE × COMPUNC -5.618***
+(0.757)
+ IT_STRATPOSTURE 0.111**
+(0.0498)
+ INDTURB 0.0478* 0.00915
+ (0.0263) (0.0275)
+  HHI 0.195*** 0.114*
+ (0.0692) (0.0674)
+  INDGROWTH 0.0812** 0.0202
+ (0.0413) (0.0411)
+  COMPUNC -0.00242 0.0237
+ (0.0242) (0.0240)
+  IT 0.567*** 0.572***
+ (0.0605) (0.0546)
+  Firm size:  Log(Employees) 0.00121 0.00397
+ (0.00288) (0.00306)
+  RELDIVERSE -27.39 -7.816
+ (64.00) (67.70)
+  Free Cash Flow -0.00324 -0.00446
+ (0.00529) (0.00815)
+  Market share -0.0935 -0.0599
+ (0.0604) (0.0637)
+SP 2 yr rolling × INDTURB -5.979***
+(1.801)
+ SP 2 yr rolling × HHI -0.592
+(0.785)
+ SP 2 yr rolling × INDGROWTH 13.42***
+(1.969)
+ SP 2 yr rolling × COMPUNC -2.634**
+(1.295)
+ SP 2 yr rolling = Avg(IT_STRATPOSTURE (t - 1), IT_STRATPOSTURE) -0.302***
+(0.0792)
+  Observations 1,225 731
+  R² 0.521 0.628
+  Number of firms 400 273
+  F stat 48.84*** 43.83***
+Standard errors in parentheses.  ***p < 0.01, **p < 0.05, *p < 0.10
+The estimated models include an intercept, and indicator variables for year and industry.  Variables in interaction terms are mean centered.  We
+rescaled several variables to produce meaningful coefficient decimal places:  Competitive uncertainty (× 100), industry growth (× 10), free cash
+flow (× 10,000), related diversification (× 10,000).
+MIS Quarterly Vol. 37 No. 2—Appendix/June 2013 A7
+
+Copyright of MIS Quarterly is the property of MIS Quarterly & The Society for Information Management and
+its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's
+express written permission. However, users may print, download, or email articles for individual use.
+
